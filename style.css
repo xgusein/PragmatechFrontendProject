@@ -20,6 +20,8 @@ h1{text-align: center;
 }
 p{
 font-size: x-large;
-background: red;
-height: 150px;    
+background: rgb(122, 140, 236);
+height: 150px; 
+text-align: center;
+color: rgb(233, 215, 115);    
 }

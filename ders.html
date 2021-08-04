@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayraq</title>
+
+    <script>
+        function changeColor(reng){
+            document.bgColor=reng;
+            
+        }
+    </script>
+
+    <style>
+        .bayraq{
+            
+            margin: auto;
+            border:1px solid yellow;
+            width: 600px;
+            height: 300px;
+        }
+        .hisse1{
+            width: 600px;
+            height: 100px;
+            background-color: blue;
+        }
+        .hisse2{
+            width: 600px;
+            height: 100px;
+            background-color: red;
+        }
+        .hisse3{
+            width: 600px;
+            height: 100px;
+            background-color: green;
+        }
+        .hisse4{
+            width: 20px;
+            height: 200px;
+            background-color: gray;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="bayraq">
+        <div class="hisse1" onclick="changeColor('blue')"></div>
+        <div class="hisse2" onclick="changeColor('red')"></div>
+        <div class="hisse3" onclick="changeColor('green')"></div>
+        <div class="hisse4"></div>
+    </div>
+    </body>
+    </html>
