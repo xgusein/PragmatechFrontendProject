@@ -1,0 +1,25 @@
+div{
+background: rgb(221, 159, 117);
+color: blanchedalmond;
+border-radius: 4cm;
+text-align: center;
+}
+.box{
+background: rgb(192, 218, 132);
+color: black;
+}
+.box2{
+    background: blueviolet;
+    text-align: left;
+    width: 65px;
+    height: 22px;
+}
+h1{text-align: center;
+ color: rgb(212, 206, 199);
+
+}
+p{
+font-size: x-large;
+background: red;
+height: 150px;    
+}
