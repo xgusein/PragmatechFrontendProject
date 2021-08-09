@@ -1,6 +1,11 @@
 body {
+<<<<<<< HEAD:css/iş.css
     margin: 0px
     }
+=======
+margin: 0px
+}
+>>>>>>> 681bec841a8fe1b96072ac7bbad413f8fdf5c670:iş.css
 #box1 { 
     border: 1px solid black;
     width: 100%;
