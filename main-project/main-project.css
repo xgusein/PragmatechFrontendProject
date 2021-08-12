@@ -1,0 +1,70 @@
+.x-top-bar {
+    border: 1px solid none ;
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}
+.box {
+    border: 1px solid black;
+    height: 50px;
+    
+}
+.logo {
+    border: 1px solid none;
+    display: flex;
+    
+    
+}
+.logo span{
+    color:darkgray;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 20px;
+    
+    
+}
+.search{
+    border: 1px solid white;
+    width: 40px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.search i {
+    font-size: 25px;
+    margin-top: 12px;
+    cursor: pointer;
+    color: white;
+}
+.x-top-bar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 500px;
+    font-size: 15px;
+    
+}
+.buttons li{
+    margin: 12px;
+    
+}
+
+#x-slider{
+    height: 600px;
+background-image: url(https://www.codingdojo.com/blog/wp-content/uploads/The-7-Most-In-Demand-Programming-Languages-of-2019-Header.png);
+background-size: cover;
+
+}
+a{
+    color: white;
+    font-family: 'open sans';
+}
+.buttons{
+    display: flex   ;
+    
+}
