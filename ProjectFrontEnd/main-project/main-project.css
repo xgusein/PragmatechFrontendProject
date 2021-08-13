@@ -55,9 +55,10 @@
 }
 
 #x-slider{
-    height: 600px;
+    height: 654px;
 background-image: url(https://www.codingdojo.com/blog/wp-content/uploads/The-7-Most-In-Demand-Programming-Languages-of-2019-Header.png);
 background-size: cover;
+
 
 
 }
@@ -71,7 +72,7 @@ a{
 }
 ul li a:hover{
     border-bottom: 1px solid red;
-    transition: all .3s ease ;
+    transition: all .10s linear ;
 }
 ul li {
     list-style: none;
@@ -79,3 +80,28 @@ ul li {
 ul li a{
     text-decoration: none;
 }
+.HU {
+     border: 1px solid rgb(122, 54, 14);
+     width: 980px;
+     height: 600px;
+     position: absolute;
+     margin-left: 250px;
+     margin-top: 150px;
+     display: grid;
+     grid-template-columns: 1fr 1fr ;
+     grid-template-rows: 6fr 2fr;
+     gap: 40px;
+     background-color: rgb(133, 71, 36);
+     
+
+}
+.al:nth-child(3) {
+    grid-column: 1 /span 2;
+}
+
+.al {
+    background-color: rgb(150, 84, 46);
+    
+}
+
+
