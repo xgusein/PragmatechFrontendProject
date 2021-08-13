@@ -68,3 +68,13 @@ a{
     display: flex   ;
     
 }
+ul li a:hover{
+    border-bottom: 1px solid red;
+    transition: all .3s ease ;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
