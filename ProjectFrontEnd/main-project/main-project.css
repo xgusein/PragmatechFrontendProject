@@ -90,18 +90,49 @@ ul li a{
      display: grid;
      grid-template-columns: 1fr 1fr ;
      grid-template-rows: 6fr 2fr;
-     gap: 40px;
-     background-color: rgb(133, 71, 36);
+     background-color: white;
+
      
 
 }
 .al:nth-child(3) {
     grid-column: 1 /span 2;
 }
-
+.al:nth-child(2) {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 2fr;
+}
+.al:nth-child(3) {
+    background-color: #07cb79;
+    display: flex;
+    justify-content: center;
+    
+    
+}
 .al {
-    background-color: rgb(150, 84, 46);
+    background-color: white;
+    border: 1px solid black;
     
 }
 
+img{
+    height: 440px;
+    padding: 50px
+
+}
+
+    
+
+.ico {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.ico i{
+    color: white;
+}
 
