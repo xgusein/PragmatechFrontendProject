@@ -109,6 +109,7 @@ border: white;
 }
 .profile-info {
     border-bottom: 1px solid black;
+    padding: 45px 0 0px 0;
 }
 .profile-list  {
     width: 50px;
@@ -172,5 +173,3 @@ img{
     line-height: 20px;
     text-transform: uppercase;
 }
-
-
