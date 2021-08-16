@@ -95,6 +95,9 @@ ul li a{
      
 
 }
+.al:nth-child(1) {
+    border: white;
+}
 .al:nth-child(3) {
     grid-column: 1 /span 2;
 }
@@ -102,6 +105,14 @@ ul li a{
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 1fr 2fr;
+border: white;
+}
+.profile-info {
+    border-bottom: 1px solid black;
+}
+.profile-list  {
+    width: 50px;
+    
 }
 .al:nth-child(3) {
     background-color: #07cb79;
@@ -135,4 +146,31 @@ img{
 .ico i{
     color: white;
 }
+.dow{
+    border: 1px solid black;
+    height: 50px;
+    width: 70px;
+    display: flex;
+    margin-top: 210px;
+    height: 300px;
+    width: 800px;
+    margin-left: 350px;
+}
+.download {
+    border: 1px solid black;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    margin-left: 300px;
+}
+.clearfix{
+    display: flex;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
 
