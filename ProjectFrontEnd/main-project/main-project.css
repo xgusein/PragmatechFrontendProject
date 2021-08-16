@@ -62,6 +62,9 @@ background-size: cover;
 
 
 }
+.fixed{
+    position: fixed;
+}
 a{
     color: white;
     font-family: 'open sans';
@@ -160,16 +163,24 @@ img{
 .download {
     border: 1px solid black;
     text-align: center;
-    height: 40px;
-    width: 200px;
+    height: 30px;
+    width: 480px;
     display: flex;
     margin-left: 300px;
+    margin-top: 20px;
 }
-.clearfix{
+.p{
+    
+}
+.main{
     display: flex;
     color: #333333;
     font-size: 12px;
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
+}
+.profile-list{
+    display: grid;
+    
 }
