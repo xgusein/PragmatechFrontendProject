@@ -184,3 +184,51 @@ img{
     display: grid;
     
 }
+.vimeo {
+     border: 1px solid black; 
+     width: 500px;
+    height: 400px;
+    margin-top: 5px;
+    margin-right: 50px;
+    position: relative;
+}
+.vimeo img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    z-index: 0;
+    
+}
+.blog1{
+    text-align: center;
+    
+}
+
+.row-2{
+    display: flex;
+        justify-content: center;
+
+}
+.time {
+    position:absolute;
+    border: 1px solid #07cb79;
+    width: 49px;
+    height: 60px;
+    margin-left: 430px;
+    background-color: #07cb79;
+    margin-top: 20px;
+    z-index: 2;
+}
+.may{
+    color: white;
+    font-size: inherit;
+    line-height: 1px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: inherit;
+}
