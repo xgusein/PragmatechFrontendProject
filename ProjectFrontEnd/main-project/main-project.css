@@ -58,9 +58,9 @@
     height: 654px;
 background-image: url(https://www.codingdojo.com/blog/wp-content/uploads/The-7-Most-In-Demand-Programming-Languages-of-2019-Header.png);
 background-size: cover;
-
-
-
+}
+body{
+    background-color: rgb(217, 219, 223);
 }
 .fixed{
     position: fixed;
@@ -155,80 +155,129 @@ img{
     height: 50px;
     width: 70px;
     display: flex;
-    margin-top: 210px;
+    margin-top: 130px;
     height: 300px;
     width: 800px;
     margin-left: 350px;
 }
-.download {
-    border: 1px solid black;
+.resume{
+    border:1px solid black;
+    height: 50px;
+    width: 300px;
     text-align: center;
-    height: 30px;
-    width: 480px;
-    display: flex;
-    margin-left: 300px;
-    margin-top: 20px;
-}
-.p{
-    
-}
-.main{
-    display: flex;
-    color: #333333;
-    font-size: 12px;
+    margin-left: 250px;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 1;
     text-transform: uppercase;
+    color: #3d4451 !important;
+    border: 1px solid #cbcdcf;
+    background: transparent;
+    box-shadow: none;
 }
-.profile-list{
-    display: grid;
-    
+#portfoli{
+    border: 1px solid black;
+    height: 500px;
+    width:  1500px;
+}
+#educa {
+    border: 1px solid black;
+    height: 500px;
+    width: 1500px;
 }
 .vimeo {
-     border: 1px solid black; 
-     width: 500px;
-    height: 400px;
-    margin-top: 5px;
-    margin-right: 50px;
-    position: relative;
+    border: 1px solid black; 
+    width: 500px;
+   height: 480px;
+   margin-top: 5px;
+   margin-right: 50px;
+   position: relative;
 }
 .vimeo img{
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: -50px;
-    right: -50px;
-    z-index: 0;
-    
+   width: 100%;
+   height: auto;
+   position: absolute;
+   top: -50px;
+   right: -50px;
+   z-index: 0;
+   
 }
 .blog1{
-    text-align: center;
-    
+   text-align: center;
+   
+}
+#blog{
+   position: relative;
 }
 
 .row-2{
-    display: flex;
-        justify-content: center;
+   display: flex;
+       justify-content: center;
+   
 
 }
 .time {
-    position:absolute;
-    border: 1px solid #07cb79;
-    width: 49px;
-    height: 60px;
-    margin-left: 430px;
-    background-color: #07cb79;
-    margin-top: 20px;
-    z-index: 2;
+   position:absolute;
+   border: 1px solid #07cb79;
+   width: 49px;
+   height: 60px;
+   margin-left: 430px;
+   background-color: #07cb79;
+   margin-top: 20px;
+   z-index: 2;
 }
 .may{
-    color: white;
-    font-size: inherit;
-    line-height: 1px;
-    font-size: 20px;
-    text-align: center;
-    display: flex;
+   color: white;
+   font-size: inherit;
+   line-height: 1px;
+   font-size: 20px;
+   text-align: center;
+   display: flex;
+   margin-top: 20px;
+   margin-left: 10px;
+   font-family: inherit;
+}
+.te{
+    border: 1px solid black;
+    height: 150px;
+    width: 1000px;
     margin-top: 20px;
-    margin-left: 10px;
-    font-family: inherit;
+    margin-left: 250px; 
+}
+.sec{
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin-left: 650px;
+}
+#text { 
+    margin-top: 50px;
+}
+.m-y h2{
+    margin-left: 660px;
+}
+.hav{
+    width: 900px;
+    margin-left: 250px;
+}
+.inter{
+    border: 1px solid black;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+}
+.ines{
+    border: 1px solid black;
+}
+.inter i{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    line-height: 74px;
+    cursor: pointer;
+    color: #07cb79;;
 }
