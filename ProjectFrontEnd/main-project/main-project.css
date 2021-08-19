@@ -59,8 +59,9 @@
 background-image: url(https://www.codingdojo.com/blog/wp-content/uploads/The-7-Most-In-Demand-Programming-Languages-of-2019-Header.png);
 background-size: cover;
 }
+/* a */
 body{
-    background-color: rgb(217, 219, 223);
+    background-color: rgb(230, 233, 238);
 }
 .fixed{
     position: fixed;
@@ -94,9 +95,6 @@ ul li a{
      grid-template-columns: 1fr 1fr ;
      grid-template-rows: 6fr 2fr;
      background-color: white;
-
-     
-
 }
 .al:nth-child(1) {
     border: white;
@@ -116,28 +114,22 @@ border: white;
 }
 .profile-list  {
     width: 50px;
-    
 }
 .al:nth-child(3) {
     background-color: #07cb79;
     display: flex;
     justify-content: center;
-    
-    
 }
+
 .al {
     background-color: white;
     border: 1px solid black;
-    
 }
 
 img{
     height: 440px;
-    padding: 50px
-
+    padding: 50px;
 }
-
-    
 
 .ico {
     width: 400px;
@@ -145,13 +137,15 @@ img{
     justify-content: space-evenly;
     padding: 20px;
     font-size: 20px;
-    
+
 }
 .ico i{
     color: white;
+
+
 }
 .dow{
-    border: 1px solid black;
+    border: 1px solid none ;
     height: 50px;
     width: 70px;
     display: flex;
@@ -160,31 +154,54 @@ img{
     width: 800px;
     margin-left: 350px;
 }
-.resume{
-    border:1px solid black;
+ .resume{ 
+    
     height: 50px;
     width: 300px;
     text-align: center;
     margin-left: 250px;
+    margin-top: 50px;
     font-size: 14px;
     font-weight: 700;
     line-height: 1;
     text-transform: uppercase;
     color: #3d4451 !important;
-    border: 1px solid #cbcdcf;
     background: transparent;
-    box-shadow: none;
+
+    
 }
+.resume a button{
+    margin-top: 25px;
+padding: 10px;
+font-weight: 700;
+text-transform: uppercase;
+color: #3d4451 !important;
+}
+.resume a button:hover{
+box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+.pas p {
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    color: #000;
+    line-height: 1.8;
+    text-align: center;
+}
+/* a */
 #portfoli{
     border: 1px solid black;
     height: 500px;
     width:  1500px;
 }
+/* a */
 #educa {
     border: 1px solid black;
     height: 500px;
     width: 1500px;
 }
+/* a */
 .vimeo {
     border: 1px solid black; 
     width: 500px;
@@ -200,8 +217,17 @@ img{
    top: -50px;
    right: -50px;
    z-index: 0;
-   
 }
+.pho{
+    border: 1px solid black;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 340px;
+    left: 100px;
+}
+
+
 .blog1{
    text-align: center;
    
@@ -237,47 +263,168 @@ img{
    margin-left: 10px;
    font-family: inherit;
 }
+/* a */
 .te{
-    border: 1px solid black;
+    border: 1px solid white;
     height: 150px;
     width: 1000px;
     margin-top: 20px;
     margin-left: 250px; 
+    background-color: white;
+    box-shadow:0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) ;
+    
 }
 .sec{
-    border: 1px solid black;
+    border: 1px solid none;
     height: 50px;
-    width: 150px;
+    width: 235px;
     text-align: center;
-    margin-left: 650px;
+    margin-left: 640px;
+    font-size: 30px;
 }
 #text { 
     margin-top: 50px;
+    text-align: 1.5px ;
+    font-size: 18px;
 }
-.m-y h2{
-    margin-left: 660px;
+
+.m-y h2{ 
+    margin-left: 680px;
+    border: 1px solid none;
+    font-size: 30px;
+    
 }
 .hav{
-    width: 900px;
+    width: 1000px;
     margin-left: 250px;
+    background-color: white;
+    box-shadow:0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) ;
 }
 .inter{
-    border: 1px solid black;
-    width: 400px;
-    height: 100px;
+    border: 1px solid none ;
+    width: 980px;
+    height: 50px;
     display: flex;
-    justify-content: space-between;
-    margin-left: 500px;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 250px;
+    margin-top: -15.8px;
+    background-color: white;
+    box-shadow:0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) ;
+    padding: 10px;
+    
 }
+.have p{
+    padding: 10px;
+    line-height: 1px;
+}
+
 .ines{
-    border: 1px solid black;
+    border: 1px solid #9ea3ac;
+    font-size: 18px;
+    
 }
 .inter i{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 10px;
     font-size: 30px;
-    line-height: 74px;
+    line-height: 35px;
     cursor: pointer;
-    color: #07cb79;;
+    color: #07cb79;
+    padding: 5px;
+    
 }
+.card {
+    height: 100px;
+    padding: 15px;
+    background: lightgray;
+    border-top: 3px solid greenyellow;
+    position: relative;
+    margin: 50px;
+}
+.right{
+ 
+}
+.left{
+    margin-top: 50px;
+}
+.cards {
+    width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.right:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid lightgray;
+    position: absolute;
+    top: 60px;
+    right: -39px;
+    
+}
+
+.right:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: greenyellow;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #07cb79;
+    position: absolute;
+    top: 75px;
+    right: -55px;
+    z-index: 5;
+}
+
+.left:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: greenyellow;
+    border-radius: 50%;
+    box-shadow: #07cb79;
+    position: absolute;
+    top: 145px;
+    left: -55px;
+    z-index: 5;
+}
+
+.left:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid lightgray;
+    position: absolute;
+    top: 129px;
+    left: -40px;
+    transform: rotate( 180deg);
+}
+
+.line {
+    width: 3px;
+    background: #07cb79;
+    position: absolute;
+    height: 470px;
+    top: 5px;
+    left: 398px;
+    z-index: 4;
+    opacity: 0.7;
+    margin-top: 130px;
+}
+#edu h2{
+    text-align: center;
+}
+
+
+
