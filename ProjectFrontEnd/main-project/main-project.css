@@ -542,11 +542,11 @@ left: 155px;
 .ContactForm{
     width: 40%;
     padding: 21px;
-    background-color: #07cb79;
+    background-color: #9cf3cf;
     margin-top: -30px;    
 }
 .ContactForm h2{
-    font-size: 50px;
+    font-size: 37px;
     font-weight: 800;
     color: black;
     margin-top: -18px;
@@ -557,7 +557,7 @@ left: 155px;
     margin-top: 10px;
 
 }
-.inputBox input{
+.inputBox input,textarea{
 width: 100%;
 padding: 5px 0;
 font-size: 16px;
