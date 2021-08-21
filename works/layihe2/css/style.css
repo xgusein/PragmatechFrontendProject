@@ -37,6 +37,7 @@ img{
 #frist{
     position:relative;
     background-size: cover;
+    
 }
 .main{
     margin-top: 80px;
@@ -76,5 +77,19 @@ img{
 }
 .hello{
     color: #ff305b;
+}
+.prof{
+    height: 70%;
+}
+.main2{
+    padding: 50px;
+    display: flex;
+
+}
+.grey{
+  color:#878787;
+}
+.cen{
+    text-align: center;
 }
 
