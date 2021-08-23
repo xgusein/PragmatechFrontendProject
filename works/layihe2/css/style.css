@@ -72,6 +72,9 @@ body{
     font-family: "Roboto Condensed",sans-serif;
     font: 42px;
 }
+.about{
+    margin-top: 10px;
+}
 .hello{
     color: #ff305b;
 }
@@ -88,14 +91,33 @@ body{
 }
 .cen{
     text-align: center;
+    margin-top: 80px;
+    font-weight: 700px;
+    font-size: 30px;
+    font: 300px;
 }
+.ab h2{
+    font-size: 18px;
+    margin-top: 80px;
+}
+.ab p{
+    margin-top: 30px;
+    
+}
+.tab{
+    margin-top: 50px;
+}
+
 .nov{
     display: flex;
-   
+   margin-left: -50px;
 }
 .nov li a{
     color: black;
+    
 }
 .nov li{
     list-style: none;
+    margin-left: 20px;
+    
 }
