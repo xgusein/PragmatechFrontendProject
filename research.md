@@ -32,3 +32,42 @@ Bu, əslində flex-grow xüsusiyyətindən fərqli olaraq kiçilmək üçün ist
 
 5)flex-grow nədir?
 Bir elementin digərlərindən daha böyük görünməsi üçün bu xüsusiyyətdən istifadə edirik. Varsayılan dəyəri 0 -dır. Maddələrdən birinin dəyərini 2 olaraq təyin etsək, digərlərindən daha böyük olacaq, amma qalanları daralacaq. Əvvəlcə bütün maddələrin dəyərini 1 olaraq təyin etsəniz və sonra bir maddənin dəyərini 2 olaraq təyin etsəniz, nəticədə digər maddələrdən 2 dəfə böyük bir maddə əldə edəcəksiniz.
+
+
+
+
+Javasscript
+
+
+1)import - import başqa moduldan dəyişənlərin və funksiyların idxalına imkan yaradı.
+Məsələn: bir funksiyanı xaricə köçürən fayl varsa
+// 📁 project.js
+export function project(user) {
+  alert(`Salam, ${user}!`);
+}
+...Dha sonra başqa bir fayl bunu içinə köçürüb, istifade edə bilər.
+// 📁 main.js
+import {project} from './project.js';
+
+alert(projecct); // fonksiyon...
+project('John'); // Salam, Hüseyn!
+2)in - JavaScript operatoru, müəyyən bir xüsusiyyətin bir obyektdə və ya başqasından alınmış xüsusiyyətlərində olub olmadığını yoxlmaq üçün istifade olunur.Göstərilən xüsusiyyət varsa, in operatoru true qaytarır.
+Bir obyekt üzərində bir funksiyanın və yaxud informasiyanın olub olmadığını yoxlamaq üçün:
+
+const car = {
+  make: 'Toyota',
+  model:'Camry',
+  year: '2018',
+  start: function() {
+    console.log(`Starting ${this.make} ${this.model}, ${this.year}`);
+  }
+}
+
+'make' in car // Returns true.
+'start' in car // Returns true.
+'Toyota' in car // Returns false. 'Toyota' is not a property name, but a value.
+
+3) Instanceof, bir obyektin bir sinfə aid olub olmadığını yoxlamaq üçün istifadə olunur.
+4)İnterfeys - Java -da İnterfeys istifadə edildikdə, yalnız öz bədənindən yaranan alt siniflər istifadə olunur və doldurulmalı olan içi boş bir metod tərifi yerinə yetirilir. Yaddaqalanlığı bir az da artırmaq üçün, Java İnterfeysi nədir sualına cavab olaraq yerinə yetirilməsi lazım olan bir bələdçi və ya tapşırıqlar toplusunu nümunə edərək bu suala cavab verə bilərik.
+
+4) Proqramlaşdırmadı boş deyə bir anlayış yoxdur.Proqramlama məntiqində boş dəyərdə bir dəyər olduğunda, günlük həyatımızdakı kimi yoxluğ ifadə etməz. Əgər siz bir boşluğu idarə etmək istəyirsinizsə null funksiyasın istifadə etməlisiniz. Məsələn,  ir dəyişkən null dəyərinə sahipsə o dəyişkənin dəyəri yoxdur amma bir dəyişkən bir dəyərə sahipsə onun dəyəri vardır və boşluğdur.
