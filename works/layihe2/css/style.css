@@ -148,6 +148,7 @@ body{
 #third h2{
     text-align: center;
     margin-top: -18%;
+    
 }
 .por ul{
     display: flex;
@@ -171,27 +172,30 @@ body{
     transition: all 10.s linear;
     color: #ff305b;
 }
-.porro{
+/* .porro{
     display: grid;
     padding: 50px;
     grid-template-columns: 20% 20% 20% 20%;
     grid-template-rows: 500% 500% ;
     margin-left: 180px;
-    gap: 30px;
-
-
-
+    gap: 30px
 }
 .poro{
-border: 1px solid black;
+    border: 1px solid black; */
+/* ayirrrrrrrrrr */
 /* width: 100px; */
 /* height: 100px; */
     /* padding: 50px; */
     /* grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10%; */
     /* grid-template-rows: ; */
-
+/* } */
+.porroo{
+    height: 200px;
 }
-
+.porroo img{
+    width: 100%;
+    height: 100%;
+}
 
 #fourth h2{
     margin-top: 400px;
@@ -201,4 +205,8 @@ border: 1px solid black;
     border: 1px solid black;
     height: 350px;
 }
-
+.view{
+    border: 1px solid black;
+    width: 6%;
+    height: 15px;
+}
