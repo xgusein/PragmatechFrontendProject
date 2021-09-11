@@ -10,7 +10,7 @@ body{
 #x-top-bar{
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
 }
 .buttons ul{
@@ -19,12 +19,14 @@ body{
     list-style: none;
     text-transform: uppercase;
     font-size: 16px;
-
+    
 }
 .buttons li a{
     color: white;
     text-decoration: none;
     margin: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 .buttons :hover{
     transition: all .10s linear ;
@@ -41,12 +43,15 @@ body{
     width: 100%;
     
 }
+
 .main{
     margin-top: 300px;
     position: absolute;
     top: -10px;
     left: 200px;
     color: white;
+    
+    
 }
 .writ{
     border:1px solid none;
@@ -56,19 +61,52 @@ body{
     justify-content: center;    
     margin: 3px;
     
+    
+}
+.pro{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bor{
+    font-size: 30px;
+}
+.writ p{
+    opacity: 0.7;
 }
 .box{
     margin-left: 30px;
-    border: 1px solid #ff305b;
+    border: 1px solid white;
     padding: 7px 30px 6px 30px ;
+    box-shadow: inset 0 0 0 0 #ff305b;
+    transition: 1s all ease;
+}
+.box a{
+    color: white;
+    text-decoration: none;
     
+}
+/* .box ::before{
+    background: #ff305b;
+    content: "";
+    width: 150px;
+    height: 45px;
+    
+} */
+.box :hover {
+    box-shadow: inset 300 0 0 0 #ff305b ;
 }
 .box1{
     border: 1px solid #ff305b;
     padding: 7px 30px 6px 30px;
+    text-decoration: none; 
+}
+.box1 :hover{
+    box-shadow: inset 300 0 0 0 #ff305b ;
+}
+.box1 a{
     text-decoration: none;
-    
-    
+    color: #ff305b;
 }
 /* .box1 :hover{ 
     transition: all .10s linear;
@@ -88,6 +126,10 @@ body{
 }
 .about{
     margin-top: 10px;
+}
+.cen{
+    font-weight: 700;
+
 }
 .hello{
     color: #ff305b;
@@ -113,6 +155,7 @@ body{
 .ab h2{
     font-size: 18px;
     margin-top: 80px;
+    font-weight: 700;
 }
 .ab p{
     margin-top: 30px;
@@ -120,6 +163,7 @@ body{
 }
 .tab{
     margin-top: 50px;
+    
 }
 
 .nov{
@@ -141,13 +185,16 @@ body{
     
 }
 .ab1{
-    margin-top: 90px;
+    margin-top: 100px;
+    margin-left: 20px;
 }
 .ab1 a{
-    border: 1px solid black;
+    border: 1px solid #ff305b;
+    color: #ff305b;
     width: 30%;
     padding: 10px;
     text-decoration: none;
+    list-style: none;
 }
 
 #third h2{
