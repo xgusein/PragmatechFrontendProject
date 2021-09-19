@@ -248,6 +248,10 @@ td{
 .porroo img{
     width: 100%;
     height: 100%;
+    transition: all .3s ease;
+}
+.porroo:hover img{
+    filter: brightness(30%);
 }
 #fourth{
     background-color: #f7f7f7;;
