@@ -1,92 +1,99 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
 
-.man{
+.man {
     height: 675px;
     width: 100%;
 }
-#x-top-bar{
+
+#x-top-bar {
     background-color: black;
     display: flex;
     justify-content: space-around;
     padding: 10px;
 }
-.buttons ul{
+
+.buttons ul {
     display: flex;
     padding: 10px;
     list-style: none;
     text-transform: uppercase;
     font-size: 16px;
-    
 }
-.buttons li a{
+
+.buttons li a {
     color: white;
     text-decoration: none;
     margin: 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
-.buttons :hover{
-    transition: all .10s linear ;
+
+.buttons :hover {
+    transition: all .10s linear;
     color: #ff305b;
 }
 
-#frist{
-    position:relative;
+#frist {
+    position: relative;
     /* background-size: cover; */
-    
-    
-}
-#frist img{
-    width: 100%;
-    
 }
 
-.main{
+#frist img {
+    width: 100%;
+
+}
+
+.main {
     margin-top: 300px;
     position: absolute;
     top: -10px;
     left: 250px;
     color: white;
-    
-    
-    
+
+
+
 }
-.writ{
-    border:1px solid none;
+
+.writ {
+    border: 1px solid none;
     line-height: 34px;
     text-align: center;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     margin: 10px;
-    
-    
+
+
 }
-.pro{
+
+.pro {
     font-size: 20px;
     font-weight: bold;
 }
 
-.bor{
+.bor {
     font-size: 30px;
 }
-.writ p{
+
+.writ p {
     opacity: 0.7;
 }
-.box{
+
+.box {
     margin-left: 30px;
     border: 1px solid white;
-    padding: 7px 30px 6px 30px ;
+    padding: 7px 30px 6px 30px;
     box-shadow: inset 0 0 0 0 #ff305b;
     transition: 1s all ease;
 }
-.box a{
+
+.box a {
     color: white;
     text-decoration: none;
-    
+
 }
+
 /* .box ::before{
     background: #ff305b;
     content: "";
@@ -95,101 +102,121 @@ body{
     
 } */
 .box :hover {
-    box-shadow: inset 300 0 0 0 #ff305b ;
+    box-shadow: inset 300 0 0 0 #ff305b;
 }
-.box1{
+
+.box1 {
     border: 1px solid #ff305b;
     padding: 7px 30px 6px 30px;
-    text-decoration: none; 
+    text-decoration: none;
 }
-.box1 :hover{
-    box-shadow: inset 300 0 0 0 #ff305b ;
+
+.box1 :hover {
+    box-shadow: inset 300 0 0 0 #ff305b;
 }
-.box1 a{
+
+.box1 a {
     text-decoration: none;
     color: #ff305b;
 }
+
 /* .box1 :hover{ 
     transition: all .10s linear;
     background: #ff305b;
     color: white;
  } */
 .bor {
-    border-top: 2px solid #ff305b ;
+    border-top: 2px solid #ff305b;
     border-bottom: 2px solid #ff305b;
     font-weight: 700;
-    font-family: "Roboto Condensed",sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font: 42px;
 }
-.close{
+
+.close {
     width: 100%;
     margin-left: -8%;
 }
-.about{
+
+.about {
     margin-top: 10px;
 }
-.cen{
+
+.cen {
     font-weight: 700;
 
 }
-.hello{
+
+.hello {
     color: #ff305b;
 }
-.prof{
+
+.prof {
     height: 70%;
 }
-.main2{
+
+.main2 {
     padding: 50px;
     display: flex;
 }
-.grey{
-  color:#878787;
+
+.grey {
+    color: #878787;
 }
-.cen{
+
+.cen {
     text-align: center;
     margin-top: 80px;
     font-weight: 700px;
     font-size: 30px;
     font: 300px;
 }
-.ab h2{
+
+.ab h2 {
     font-size: 18px;
     margin-top: 80px;
     font-weight: 700;
 }
-.ab p{
+
+.ab p {
     margin-top: 30px;
 }
-.tab{
+
+.tab {
     margin-top: 50px;
     color: #696969;
 }
-td{
+
+td {
     border: 15px solid white;
 
 }
-.nov{
+
+.nov {
     display: flex;
-   margin-left: -50px;
+    margin-left: -50px;
 }
-.nov li a{
+
+.nov li a {
     border: 1px solid black;
     color: black;
     padding: 5px;
     padding: 10px;
 }
 
-.nov li{
+.nov li {
     list-style: none;
     margin-left: 20px;
     margin-top: 34px;
-    
+
 }
-.ab1{
+
+.ab1 {
     margin-top: 100px;
     margin-left: 20px;
 }
-.ab1 a{
+
+.ab1 a {
     border: 1px solid #ff305b;
     color: #ff305b;
     width: 30%;
@@ -198,22 +225,28 @@ td{
     list-style: none;
 }
 
-#third h2{
+#third h2 {
     text-align: center;
     margin-top: -18%;
-    
+
 }
-.por ul{
+
+.por ul {
     display: flex;
     justify-content: center;
-    margin-top: 3%;
-  
+    margin-top: 2%;
+    padding: 1%;
+
 }
-.por ul li{
+
+.por ul li {
     list-style: none;
-    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+
 }
-.por ul li a{
+
+.por ul li a {
     text-decoration: none;
     margin: 30px;
     color: black;
@@ -221,10 +254,12 @@ td{
     font-size: 16px;
 
 }
-.por ul :hover{
+
+.por ul :hover {
     transition: all 10.s linear;
     color: #ff305b;
 }
+
 /* .porro{
     display: grid;
     padding: 50px;
@@ -238,91 +273,109 @@ td{
 /* ayirrrrrrrrrr */
 /* width: 100px; */
 /* height: 100px; */
-    /* padding: 50px; */
-    /* grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10%; */
-    /* grid-template-rows: ; */
+/* padding: 50px; */
+/* grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10%; */
+/* grid-template-rows: ; */
 /* } */
-.porroo{
+.porroo {
     height: 200px;
 }
-.porroo img{
+
+.porroo img {
     width: 100%;
     height: 100%;
     transition: all .3s ease;
 }
-.porroo:hover img{
+
+.porroo:hover img {
     filter: brightness(30%);
 }
-#fourth{
-    background-color: #f7f7f7;;
+
+#fourth {
+    background-color: #f7f7f7;
+    ;
 }
-#fourth h2{
+
+#fourth h2 {
     margin-top: 100px;
     margin-left: 670px;
 }
-.blo{
+
+.blo {
     border: 1px solid black;
     height: 350px;
-    
+    padding: 3%;
 }
-.view{
+
+.view {
     border: 1px solid black;
     width: 6%;
     height: 15px;
 }
-.blo{
+
+.blo {
     border: none;
     position: relative;
-    
+
 }
-.time{
+
+.time {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 90%;
     padding: 4%;
-    color:white ;
-    background-color:#ff305b;
+    color: white;
+    background-color: #ff305b;
     opacity: .8;
     color: white;
     position: absolute;
-    top: 270px;
+    top: 262px;
     cursor: pointer;
 }
-.jan :hover{
+
+.jan :hover {
     transition: all 10.s linear;
     color: #ff305b;
 }
-.blo img{
+
+.blo img {
     width: 100%;
     height: 100%;
     cursor: pointer;
 }
-.h{
+
+.h {
     display: flex;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 500px;
     margin-top: 7%;
 }
-.h h1{
+
+.h h1 {
     font-size: 25px;
-    cursor: pointer;   
+    cursor: pointer;
 }
-.h  :hover{
+
+.h :hover {
     transition: all 10.s linear;
     color: #ff305b;
 }
-.blo p{
+
+.blo p {
     margin-top: 3%;
-    color:#878787;
+    color: #878787;
 }
-.bk{
+
+.bk {
     text-decoration: none;
     color: black;
 }
-.read :hover{
+
+.read :hover {
     transition: all 10.s linear;
     color: #ff305b;
 
 }
+
 /* .view{
   
   top: ;
@@ -331,11 +384,13 @@ td{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 10px;
 } */
-#fifth{
+#fifth {
     margin-top: 100px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #f7f7f7;;
+    background-color: #f7f7f7;
+    ;
 }
+
 /* #fifth h2{
     margin-top: 100px;
     
@@ -367,160 +422,191 @@ td{
     transition: all 10.s linear;
     color: #ff305b;
 } */
-.co1{
+
+.co1 {
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.i-1 i{
-     display: flex;
+
+.i-1 i {
+    display: flex;
     background-color: black;
     color: white;
     justify-content: space-around;
     width: 50px;
     padding: 5%;
-    margin-left: 100px;
+    margin-left: 140px;
+    border-radius: 1px;
 }
-.i-1{
+.i-1 {
     margin-left: 80px;
     text-align: center;
-    
+
 }
-.ss h3{
+
+.ss h3 {
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight:700;
+    font-weight: 700;
     margin: 2%;
     font-size: 20px;
 }
-.col-4 input{
+
+.col-4 input {
     width: 100%;
     margin: 6%;
-    border-color:0px solid #e5e5e5;;
+    border-color: 0px solid #e5e5e5;
+    ;
 }
-.send{
+
+.send {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     margin: 1%;
-    background-color:#ff305b;
-    border:none;
+    background-color: #ff305b;
+    border: none;
     height: 40px;
 }
 
-#last{
+#last {
     background-color: black;
     width: 100%;
     height: 250px;
 
 }
-.icons{
+
+.icons {
     display: flex;
     justify-content: center;
     margin: 5%;
-    
+
 }
-.icons i{
+
+.icons i {
     color: black;
     background-color: white;
     padding: 0.5%;
     margin: 0.4%;
 }
-.ss5{
+
+.ss5 {
     text-align: center;
     color: #878787;
 }
-.ssa{
+
+.ssa {
     text-decoration: none;
-    color:#ff305b ;
+    color: #ff305b;
 }
-.e-1{
+
+.e-1 {
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 2%;
     font-size: 20px;
-    font-weight:700;
+    font-weight: 700;
 }
-.subtitle{
+
+.subtitle {
     width: 46%;
     text-align: center;
     margin: auto;
-    }
-.subtitle p{
+}
+
+.subtitle p {
     color: #878787;
     font-weight: 400;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.line {
-    width: 3px;
-    background: #878787;
-    position: absolute;
-    height: 420px;
-    top: 5px;
-    left: 500px;
-    z-index: 4;
-    opacity: 0.7;
+.main-education{
     margin-top: 40px;
+    text-align: center;
 }
-.card {
-    height: 150px;
-    position: relative;
-    margin: 50px;
-
+.BIG{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
 }
-.cards {
-    width: 1000px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: relative;
+.SMALL-BOX{
+    width: 250px;
+    border:1px solid gray;
 }
-
-.div-1{
-    width: 50%;
-    border: 1px solid black;
-    height: 100%;
+.SMALL-BOX1{
+    width: 350px;
+    border: 1px solid lightgray;
+    
 }
-
-.div-1 h6{
-    padding: 3% ;
+.SMALL-BOX1 p {
+    padding: 5%;
+    opacity: 0.8;
+}
+.length{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: #ff305b;
+    padding: 2%;
+}
+.inf{
+    padding: 8%;
+}
+.inf h5 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+.inf p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.BOX{
+    display: flex;
+    height: 150px;
+    width: 600px;
+    margin-bottom: 5%;
 }
 .year {
-    background-color:#ff305b;
-    display:flex;
+    background-color: #ff305b;
+    display: flex;
     padding: 3%;
-    color: white;       
+    color: white;
 }
-.div-2{
+
+.div-2 {
     border: 1px solid black;
     height: 1050px;
     width: 50%;
     margin-left: 195px;
-    
 }
-.p{
+
+.p {
     margin: 0%;
     color: #555;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
 }
-.b{
+
+.b {
     color: #5555;
 }
-.lor{
+
+.lor {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 90%;
     margin: 0%;
     width: 50%;
 }
-#slider{
-    /* width: 100%; */
+
+#slider {
+    width: 100%;
     margin-top: 20%;
     height: 400px;
-    background: rgb(0,0,0,0.7 ) url(/works/layihe2/images/bg.jpg);
+    background: rgb(0, 0, 0, 0.7) url(/ProjectFrontEnd/layihe2/images/bg.jpg);
     background-size: cover;
     background-blend-mode: darken;
-       
+
 }
+
 /* #slider img{
     background: black;
     width: 100%;
@@ -528,25 +614,33 @@ td{
     object-fit: cover;
     background-blend-mode: darken;
 } */
-.boxxx{
+.boxxx {
     text-align: center;
     overflow: hidden;
+
 }
-.boxx{
+
+.col-4 .boxx {
+    /* display: flex; */
     text-align: center;
-    width: 500px;
+
+
 }
-.boxxx p {    
+
+.boxxx p {
     color: white;
 }
-.boxxx i{
-    margin-top: 100px; 
+
+.boxxx i {
+    margin-top: 100px;
     color: white;
     font-size: 30px;
 }
-.control{
+
+.control {
     margin-left: 48%;
 }
-.control button{
+
+.control button {
     background: none;
 }
