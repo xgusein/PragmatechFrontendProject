@@ -131,6 +131,7 @@ body {
     font-weight: 700;
     font-family: "Roboto Condensed", sans-serif;
     font: 42px;
+    padding: 0.5%;
 }
 
 .close {
@@ -598,7 +599,6 @@ td {
 }
 
 #slider {
-    width: 100%;
     margin-top: 20%;
     height: 400px;
     background: rgb(0, 0, 0, 0.7) url(/ProjectFrontEnd/layihe2/images/bg.jpg);
@@ -614,10 +614,18 @@ td {
     object-fit: cover;
     background-blend-mode: darken;
 } */
+.boxx{
+    display: flex;
+    justify-content: space-between;
+    max-width: 3000px;
+  /* position: relative; */
+  
+}
 .boxxx {
+    width: 3000px;
     text-align: center;
     overflow: hidden;
-
+    margin-left: 90px;
 }
 
 .col-4 .boxx {
@@ -638,7 +646,9 @@ td {
 }
 
 .control {
-    margin-left: 48%;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 50%;
 }
 
 .control button {
