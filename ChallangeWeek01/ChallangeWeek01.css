@@ -1,0 +1,298 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+
+body {
+  list-style: none;
+}
+
+body .container {
+  margin-top: 4%;
+}
+
+body .container .row .col-6 .buttons {
+  margin-top: 6%;
+}
+
+body .container .row .col-6 .buttons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .container .row .col-6 .buttons ul li a {
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #1F1534;
+  opacity: 0.5;
+}
+
+body .container .row .col-6 .buttons ul li a:hover {
+  border-bottom: 4px solid #458FF6;
+  opacity: 1;
+}
+
+body .container .row .col-6 .name {
+  width: 100%;
+}
+
+body .container .row .col-6 .name .logo {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .row .col-6 .name .logo .t {
+  border-radius: 100px;
+  padding: 2%;
+  height: 60px;
+  margin-top: 2%;
+  background-color: #458FF6;
+}
+
+body .container .row .col-6 .name .logo .t h1 {
+  margin-top: -50%;
+  color: white;
+  font-size: 53px;
+}
+
+body .container .row .col-6 .name .logo .full-name {
+  margin-top: 2%;
+  padding: 2%;
+  padding-left: 4%;
+}
+
+body .container .row .col-6 .name .logo .full-name h1 {
+  font-size: 40px;
+}
+
+body #frist .container .row .col-6 .row h1 {
+  margin-top: 15%;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+body #frist .container .row .col-6 .row p {
+  margin-top: 2%;
+  color: #7D7987;
+}
+
+body #frist .container .row .col-6 .row .consult {
+  margin-left: 1%;
+  padding: 2%;
+  border-radius: 20px;
+  margin-top: 5%;
+  width: 25%;
+  text-align: center;
+  background-color: #458FF6;
+}
+
+body #frist .container .row .col-6 .row .consult a {
+  text-decoration: none;
+  color: white;
+}
+
+body #frist .container .row .col-6 .row .consult a:hover {
+  -webkit-box-shadow: 0px 0px 0px 3px #1964F6;
+          box-shadow: 0px 0px 0px 3px #1964F6;
+}
+
+body #second {
+  margin-top: 12%;
+  text-align: center;
+}
+
+body #second h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+body #second p {
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+body #second .line {
+  margin-top: 3%;
+  margin-left: 48%;
+  width: 56px;
+  height: 2px;
+  background-color: black;
+}
+
+body #second .container .row .col-4 h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 3%;
+}
+
+body #second .container .row .col-4 p {
+  margin-left: 30%;
+  text-align: start;
+  font-weight: 300;
+  font-size: 16px;
+  color: #7D7987;
+}
+
+body #second .container .row .col-4 img {
+  margin-left: -100px;
+}
+
+body #second .container .row .learn {
+  width: 100%;
+}
+
+body #second .container .row .learn a {
+  border: #458FF6 2px solid;
+  border-radius: 20px;
+  padding: 11px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+body #third .container .row .col-6 h1 {
+  margin-top: 15%;
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 20%;
+}
+
+body #third .container .row .col-6 p {
+  margin-left: 20%;
+  margin-top: 5%;
+  color: #7D7987;
+}
+
+body #third .container .row .col-6 .learnn {
+  margin-left: 20%;
+  padding: 2%;
+  border-radius: 20px;
+  margin-top: 6%;
+  width: 25%;
+  text-align: center;
+}
+
+body #third .container .row .col-6 .learnn a {
+  text-decoration: none;
+  color: #458FF6;
+  border: #458FF6 2px solid;
+  padding: 6%;
+  border-radius: 20px;
+}
+
+#fifth {
+  margin-top: 18%;
+}
+
+#fifth .container .row .col-6 h1 {
+  margin-top: 15%;
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 20%;
+}
+
+#fifth .container .row .col-6 .line {
+  border: 1px solid black;
+  height: 4px;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 125px;
+  width: 8%;
+}
+
+#fifth .container .row .col-6 p {
+  margin-left: 20%;
+  margin-top: 5%;
+  color: #7D7987;
+}
+
+#fifth .container .row .col-6 p:hover {
+  border-bottom: 3px solid #458FF6;
+}
+
+#fifth .container .row .col-6 .download {
+  margin-left: 15%;
+  padding: 2%;
+  border-radius: 20px;
+  width: 25%;
+  text-align: center;
+}
+
+#fifth .container .row .col-6 .download a {
+  text-decoration: none;
+  color: #458FF6;
+  border: #458FF6 2px solid;
+  padding: 6%;
+  border-radius: 20px;
+}
+
+#sixth .container {
+  text-align: center;
+  color: white;
+  background-color: #458FF6;
+  border-radius: 40px;
+}
+
+#sixth .container h1 {
+  padding: 4%;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#sixth .container .line {
+  margin-top: -3%;
+  margin-left: 47%;
+  background-color: white;
+  width: 5%;
+  height: 5px;
+}
+
+#sixth .container .row {
+  margin-top: 5%;
+}
+
+#sixth .container .row .col-6 .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#sixth .container .row .col-6 .person .picture {
+  border: 5px solid white;
+  border-radius: 500px;
+}
+
+#sixth .container .row .col-6 .person .picture img {
+  width: 150px;
+  height: 180px;
+  border-radius: 500px;
+}
+
+#sixth .container .row .col-6 .person .name {
+  text-align: start;
+  margin-left: 20%;
+}
+
+#sixth .container .row .col-6 .person .name h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: white;
+}
+
+#sixth .container .row .col-6 .person .name p {
+  line-height: 30px;
+  font-size: 19px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+}
+/*# sourceMappingURL=ChallangeWeek01.css.map */
