@@ -187,18 +187,18 @@ body #third .container .row .col-6 .learnn a {
   border-radius: 20px;
 }
 
-#fifth {
+body #fifth {
   margin-top: 18%;
 }
 
-#fifth .container .row .col-6 h1 {
+body #fifth .container .row .col-6 h1 {
   margin-top: 15%;
   font-size: 48px;
   font-weight: 700;
   margin-left: 20%;
 }
 
-#fifth .container .row .col-6 .line {
+body #fifth .container .row .col-6 .line {
   border: 1px solid black;
   height: 4px;
   background-color: black;
@@ -208,17 +208,17 @@ body #third .container .row .col-6 .learnn a {
   width: 8%;
 }
 
-#fifth .container .row .col-6 p {
+body #fifth .container .row .col-6 p {
   margin-left: 20%;
   margin-top: 5%;
   color: #7D7987;
 }
 
-#fifth .container .row .col-6 p:hover {
+body #fifth .container .row .col-6 p:hover {
   border-bottom: 3px solid #458FF6;
 }
 
-#fifth .container .row .col-6 .download {
+body #fifth .container .row .col-6 .download {
   margin-left: 15%;
   padding: 2%;
   border-radius: 20px;
@@ -226,7 +226,7 @@ body #third .container .row .col-6 .learnn a {
   text-align: center;
 }
 
-#fifth .container .row .col-6 .download a {
+body #fifth .container .row .col-6 .download a {
   text-decoration: none;
   color: #458FF6;
   border: #458FF6 2px solid;
@@ -234,65 +234,176 @@ body #third .container .row .col-6 .learnn a {
   border-radius: 20px;
 }
 
-#sixth .container {
+body #sixth .container {
   text-align: center;
   color: white;
   background-color: #458FF6;
   border-radius: 40px;
+  height: 400px;
 }
 
-#sixth .container h1 {
+body #sixth .container h1 {
   padding: 4%;
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
 }
 
-#sixth .container .line {
+body #sixth .container .line {
   margin-top: -3%;
   margin-left: 47%;
   background-color: white;
   width: 5%;
-  height: 5px;
+  height: 3px;
 }
 
-#sixth .container .row {
+body #sixth .container .row {
   margin-top: 5%;
 }
 
-#sixth .container .row .col-6 .person {
+body #sixth .container .row .col-6 .person {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#sixth .container .row .col-6 .person .picture {
+body #sixth .container .row .col-6 .person .picture {
   border: 5px solid white;
   border-radius: 500px;
+  margin-top: -40px;
+  margin-left: 22%;
 }
 
-#sixth .container .row .col-6 .person .picture img {
-  width: 150px;
-  height: 180px;
+body #sixth .container .row .col-6 .person .picture img {
+  background-image: cover;
   border-radius: 500px;
+  height: 160px;
+  width: 160px;
 }
 
-#sixth .container .row .col-6 .person .name {
+body #sixth .container .row .col-6 .person .name {
+  padding-left: 20%;
   text-align: start;
-  margin-left: 20%;
 }
 
-#sixth .container .row .col-6 .person .name h3 {
+body #sixth .container .row .col-6 .person .name h3 {
   font-weight: 700;
   font-size: 22px;
   line-height: 48px;
   color: white;
 }
 
-#sixth .container .row .col-6 .person .name p {
+body #sixth .container .row .col-6 .person .name p {
   line-height: 30px;
   font-size: 19px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.9);
+}
+
+body #sixth .button {
+  margin-left: 43%;
+  width: 12%;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body #sixth .button i {
+  margin-top: 20px;
+  margin: 15%;
+  color: #458FF6;
+  opacity: 0.3;
+}
+
+body #sixth .button i:hover {
+  color: black;
+}
+
+body #sixth .button button {
+  background-color: #5B9BF3;
+  margin: 8%;
+  border-radius: 10px;
+  padding: 8%;
+  opacity: 0.3;
+  border: none;
+}
+
+body #seven .container {
+  text-align: center;
+}
+
+body #seven .container .line {
+  margin-top: 3%;
+  width: 56px;
+  height: 2px;
+  margin-left: 48%;
+  background-color: black;
+}
+
+body #seven .container .row {
+  margin-top: 3%;
+}
+
+body #seven .container .row .col-4 .img {
+  width: 369px;
+  height: 246px;
+}
+
+body #seven .container .row .col-4 .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 369px;
+  height: 246px;
+  border-radius: 5%;
+}
+
+body #seven .container .row .col-4 h3 {
+  text-align: start;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  padding: 5%;
+}
+
+body #seven .container .row .col-4 p {
+  text-align: start;
+  color: #7D7987;
+  padding: 5%;
+  margin-top: -30px;
+}
+
+body #seven .container .row .col-4 a {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -68%;
+}
+
+body #seven .container .row .col-4 a:hover {
+  border-bottom: 4px solid #458FF6;
+  opacity: 1;
+}
+
+body #seven .container .row .col-12 .view {
+  list-style: none;
+}
+
+body #seven .container .row .col-12 .view a {
+  border: 1px solid #458FF6;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 18px;
+  line-height: 60px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+body #seven .container .row .col-12 .view a:hover {
+  border-bottom: 4px solid #458FF6;
+  opacity: 1;
 }
 /*# sourceMappingURL=ChallangeWeek01.css.map */
