@@ -242,8 +242,10 @@ body {
             }
         }
     }
+
     #fifth {
         margin-top: 18%;
+
         .container {
             .row {
                 .col-6 {
@@ -253,7 +255,8 @@ body {
                         font-weight: 700;
                         margin-left: 20%;
                     }
-                    .line{
+
+                    .line {
                         border: 1px solid black;
                         height: 4px;
                         background-color: black;
@@ -262,90 +265,100 @@ body {
                         margin-left: 125px;
                         width: 8%;
                     }
-    
+
                     p {
                         margin-left: 20%;
                         margin-top: 5%;
                         color: $p-color;
-                        &:hover{
+
+                        &:hover {
                             border-bottom: 3px solid $main-color;
                         }
-    
+
                     }
-    
+
                     .download {
                         margin-left: 15%;
                         padding: 2%;
                         border-radius: 20px;
                         width: 25%;
                         text-align: center;
-    
+
                         a {
                             text-decoration: none;
                             color: $main-color;
                             border: $main-color 2px solid;
                             padding: 6%;
                             border-radius: 20px;
-    
+
                         }
                     }
                 }
             }
         }
     }
-    #sixth{
-        .container{
+
+    #sixth {
+        .container {
             text-align: center;
             color: white;
             background-color: $main-color;
             border-radius: 40px;
             height: 400px;
-        h1{
-            padding: 4%;
-            font-size: 36px;
-            font-weight: 700;
-            line-height: 48px;
-        }
-        .line{
-            margin-top: -3%;
-            margin-left: 47%;
-            background-color: white;
-            width: 5%;
-            height: 3px;
-        }
-            .row{
+
+            h1 {
+                padding: 4%;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 48px;
+            }
+
+            .line {
+                margin-top: -3%;
+                margin-left: 47%;
+                background-color: white;
+                width: 5%;
+                height: 3px;
+            }
+
+            .row {
                 margin-top: 5%;
-                .col-6{
-                    .person{
+
+                .col-6 {
+                    .person {
                         display: flex;
-                        .picture{
-                            border: 5px solid white ;
+
+                        .picture {
+                            border: 5px solid white;
                             border-radius: 500px;
                             margin-top: -40px;
                             margin-left: 22%;
-                            
-                            
-                            img{
-    
+
+
+                            img {
+
                                 background-image: cover;
                                 border-radius: 500px;
                                 height: 160px;
                                 width: 160px;
                             }
                         }
-                        .name{
+
+                        .name {
                             padding-left: 20%;
                             text-align: start;
+
                             // margin-left: 20%;
-                            h3{
-                                
+                            h3 {
+
                                 font-weight: 700;
                                 font-size: 22px;
                                 line-height: 48px;
                                 color: rgba(255, 255, 255, 1);
                             }
-                            p{
-                                
+
+                            p {
+
                                 line-height: 30px;
                                 font-size: 19px;
                                 font-weight: 400;
@@ -356,25 +369,28 @@ body {
                 }
             }
         }
-        .button{
+
+        .button {
             margin-left: 43%;
             width: 12%;
             height: 30px;
             display: flex;
             justify-content: space-around;
-            
-            i{
+
+            i {
                 margin-top: 20px;
                 margin: 15%;
                 color: #458FF6;
                 opacity: 0.3;
-                &:hover{
+
+                &:hover {
                     color: black;
-                    
+
                 }
-                
+
             }
-            button{
+
+            button {
                 background-color: #5B9BF3;
                 margin: 8%;
                 border-radius: 10px;
@@ -383,49 +399,58 @@ body {
                 border: none;
             }
         }
-        
+
     }
-    #seven{
-        .container{
+
+    #seven {
+        .container {
             text-align: center;
-            .line{
+
+            .line {
                 margin-top: 3%;
                 width: 56px;
                 height: 2px;
                 margin-left: 48%;
                 background-color: black;
-                
+
             }
-            .row{
+
+            .row {
                 margin-top: 3%;
-                .col-4{
-                    .img{
+
+                .col-4 {
+                    .img {
                         width: 369px;
                         height: 246px;
-                    img{
-                        object-fit: cover;
-                        width: 369px;
-                        height: 246px;
-                        border-radius: 5%;  
-                    } 
+
+                        img {
+                            object-fit: cover;
+                            width: 369px;
+                            height: 246px;
+                            border-radius: 5%;
+                        }
                     }
-                    h3{
+
+                    h3 {
                         text-align: start;
                         font-size: 21px;
                         font-weight: 700;
                         line-height: 32px;
                         padding: 5%;
                     }
-                    p{
+
+                    p {
                         text-align: start;
                         color: $p-color;
                         padding: 5%;
                         margin-top: -30px;
                     }
-                    a{
+
+                    a {
                         text-decoration: none;
                         list-style: none;
                         margin-left: -68%;
+
                         &:hover {
                             border-bottom: 4px solid $main-color;
                             opacity: 1;
@@ -433,11 +458,13 @@ body {
                     }
                 }
             }
-            .row{
-                .col-12{
-                    .view{
+
+            .row {
+                .col-12 {
+                    .view {
                         list-style: none;
-                        a{
+
+                        a {
                             border: 1px solid $main-color;
                             padding-left: 4%;
                             padding-right: 4%;
@@ -447,16 +474,43 @@ body {
                             line-height: 60px;
                             border-radius: 30px;
                             text-decoration: none;
+
                             &:hover {
-                            border-bottom: 4px solid $main-color;
-                            opacity: 1;
-                        }
+                                border-bottom: 4px solid $main-color;
+                                opacity: 1;
+                            }
                         }
                     }
                 }
             }
         }
     }
+
+    #last {
+        background-color: $main-color;
+        color: white;
+
+        .container {
+            .row {
+                .col-3 {
+                    h4 {
+                        font-size: 20px;
+                        line-height: 60px;
+                        font-weight: 700;
+                        padding: 1px;
+
+                    }
+
+                    a {
+                        color: white;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 38px;
+                        list-style: none;
+
+                    }
+                }
+            }
+        }
+    }
 }
-
-

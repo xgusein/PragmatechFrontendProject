@@ -406,4 +406,24 @@ body #seven .container .row .col-12 .view a:hover {
   border-bottom: 4px solid #458FF6;
   opacity: 1;
 }
+
+body #last {
+  background-color: #458FF6;
+  color: white;
+}
+
+body #last .container .row .col-3 h4 {
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 700;
+  padding: 1px;
+}
+
+body #last .container .row .col-3 a {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  list-style: none;
+}
 /*# sourceMappingURL=ChallangeWeek01.css.map */
