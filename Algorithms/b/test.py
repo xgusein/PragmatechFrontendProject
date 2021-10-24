@@ -34,13 +34,12 @@ for l in e:
     if l%2==0:
         print(l)
 
-
-
 #
 from math import*
 g=input("sqr:")
 print(sqrt(int(g)))
-
+#factorial
 import math
 a=input('write:')
 print(math.factorial(int(a)))
+
