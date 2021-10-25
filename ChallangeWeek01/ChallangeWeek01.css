@@ -482,4 +482,33 @@ body #last .container .row .col-3 .sag a {
   line-height: 38px;
   list-style: none;
 }
+/*planset*/
+@media  screen and (max-width:768px) {
+  #x-top-bar{
+    width: 100%;
+    
+  }
+  .name{
+    width: 100%;
+  }
+  #x-top-bar ul{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+  }
+  #x-top-bar li{
+    margin-left: -50%;
+    
+    
+  }
+}
+/*mobil*/
+/* @media  screen and (max-width:960px) {
+  #x-top-bar{
+    width: 100%;
+    height: auto;
+  }
+  
+} */
 /*# sourceMappingURL=ChallangeWeek01.css.map */
