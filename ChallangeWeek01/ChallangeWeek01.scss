@@ -39,14 +39,14 @@ body {
                     }
                 }
 
-                .name {
+                .nav-bar_name{
                     width: 100%;
 
-                    .logo {
+                    .name_logo {
                         width: 90%;
                         display: flex;
 
-                        .t {
+                        .logo_T {
                             border-radius: 100px;
                             padding: 2%;
                             height: 60px;
@@ -61,7 +61,7 @@ body {
                             }
                         }
 
-                        .full-name {
+                        .logo_text {
                             margin-top: 2%;
                             padding: 2%;
                             padding-left: 4%;
@@ -97,7 +97,7 @@ body {
         // }
     }
 
-    #frist {
+    #virtual {
         .container {
             .row {
                 .col-6 {
@@ -114,7 +114,7 @@ body {
                         }
 
                     .row {
-                        .consult {
+                        .virtual_consult {
                             margin-left: 1%;
                             padding: 2%;
                             border-radius: 20px;
@@ -143,7 +143,7 @@ body {
         }
     }
 
-    #second {
+    #services {     
         margin-top: 12%;
         text-align: center;
 
@@ -158,7 +158,7 @@ body {
             margin-top: 5%;
         }
 
-        .line {
+        .services_line {
             margin-top: 3%;
             margin-left: 48%;
             width: 56px;
@@ -189,10 +189,12 @@ body {
 
                 }
 
-                .learn {
+                .services_learn {
                     width: 100%;
-
+                    
                     a {
+                        text-decoration: none;
+                        list-style: none;
                         border: $main-color 2px solid;
                         border-radius: 20px;
                         padding: 11px;
@@ -204,7 +206,7 @@ body {
         }
     }
 
-    #third {
+    #leading {
         .container {
             .row {
                 .col-6 {
@@ -222,7 +224,8 @@ body {
 
                     }
 
-                    .learnn {
+                    .leading_learn {
+                        list-style: none;
                         margin-left: 20%;
                         padding: 2%;
                         border-radius: 20px;
@@ -244,7 +247,7 @@ body {
         }
     }
 
-    #fifth {
+    #download {
         margin-top: 18%;
 
         .container {
@@ -257,7 +260,7 @@ body {
                         margin-left: 20%;
                     }
 
-                    .line {
+                    .download_line {
                         border: 1px solid black;
                         height: 4px;
                         background-color: black;
@@ -278,7 +281,7 @@ body {
 
                     }
 
-                    .download {
+                    .download_download {
                         margin-left: 15%;
                         padding: 2%;
                         border-radius: 20px;
@@ -299,7 +302,7 @@ body {
         }
     }
 
-    #sixth {
+    #about {
         .container {
             text-align: center;
             color: white;
@@ -314,7 +317,7 @@ body {
                 line-height: 48px;
             }
 
-            .line {
+            .about_line {
                 margin-top: -3%;
                 margin-left: 47%;
                 background-color: white;
@@ -326,10 +329,10 @@ body {
                 margin-top: 5%;
 
                 .col-6 {
-                    .person {
+                    .about_person {
                         display: flex;
 
-                        .picture {
+                        .about_picture {
                             border: 5px solid white;
                             border-radius: 500px;
                             margin-top: -40px;
@@ -345,7 +348,7 @@ body {
                             }
                         }
 
-                        .name {
+                        .about_name {
                             padding-left: 20%;
                             text-align: start;
 
@@ -371,7 +374,7 @@ body {
             }
         }
 
-        .button {
+        .about_button {
             margin-left: 43%;
             width: 12%;
             height: 30px;
@@ -403,11 +406,11 @@ body {
 
     }
 
-    #seven {
+    #article {
         .container {
             text-align: center;
 
-            .line {
+            .article_line {
                 margin-top: 3%;
                 width: 56px;
                 height: 2px;
@@ -420,7 +423,7 @@ body {
                 margin-top: 3%;
 
                 .col-4 {
-                    .img {
+                    .article_img {
                         width: 369px;
                         height: 246px;
 
@@ -462,7 +465,7 @@ body {
 
             .row {
                 .col-12 {
-                    .view {
+                    .article_view {
                         list-style: none;
 
                         a {
@@ -487,7 +490,7 @@ body {
         }
     }
 
-    #last {
+    #country {
         margin-top: 12%;
         background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
         color: white;
@@ -496,7 +499,7 @@ body {
             .row {
                 margin-left: 5%;
                 .col-3 {
-                   .tt{
+                   .country_trafalgar{
                        display: flex;
                        margin-top: 3%;
                        padding-left: 3%;
@@ -537,7 +540,7 @@ body {
 
                     }
 
-                    .sag{
+                    .country_right{
                         margin-top: -6%;
                         margin-left: 40%;
                         a {
