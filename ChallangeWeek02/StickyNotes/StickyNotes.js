@@ -7,6 +7,9 @@
 //     document.getElementById("modal").style.display ="none";
 //    }
 // }
+var x = document.getElementById("modal");
+var all_notes = document.getElementsByName("all_notes");
+var i =0;
 function Myfunction() {
     var x = document.getElementById("modal");
     if (x.style.display === "none"){
@@ -14,5 +17,11 @@ function Myfunction() {
     } else{
         x.style.display = "none";
     }
-    
 }
+// var y = document.getElementsByID("user_input");
+// y.addEventListener("keyup",function(event) {
+//     if(event.keyCODE === 13){
+//         document.getElementsByClassName("all_notes");
+//         document.createElement("note");
+//     }
+// }
