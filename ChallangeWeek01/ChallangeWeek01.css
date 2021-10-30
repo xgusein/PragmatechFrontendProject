@@ -8,15 +8,30 @@ body {
   list-style: none;
 }
 
-body .container {
+body #x-top-bar .container {
   margin-top: 4%;
 }
 
-body .container .row .col-6 .buttons {
+body #x-top-bar .container .row .col-4 {
+  margin-top: 30px;
+  width: 3px;
+  margin-left: -5px;
+}
+
+body #x-top-bar .container .row .col-4 .cric .cricle {
+  width: 10px;
+  height: 10px;
+  border-radius: 8px;
+  background-color: #93C1F9;
+  opacity: 0.3;
+  margin-top: 16px;
+}
+
+body #x-top-bar .container .row .col-6 .buttons {
   margin-top: 6%;
 }
 
-body .container .row .col-6 .buttons ul {
+body #x-top-bar .container .row .col-6 .buttons ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,7 +39,7 @@ body .container .row .col-6 .buttons ul {
       justify-content: space-around;
 }
 
-body .container .row .col-6 .buttons ul li a {
+body #x-top-bar .container .row .col-6 .buttons ul li a {
   font-size: 22px;
   font-weight: 400;
   text-decoration: none;
@@ -32,23 +47,23 @@ body .container .row .col-6 .buttons ul li a {
   opacity: 0.5;
 }
 
-body .container .row .col-6 .buttons ul li a:hover {
+body #x-top-bar .container .row .col-6 .buttons ul li a:hover {
   border-bottom: 4px solid #458FF6;
   opacity: 1;
 }
 
-body .container .row .col-6 .nav-bar_name {
+body #x-top-bar .container .row .col-6 .nav-bar_name {
   width: 100%;
 }
 
-body .container .row .col-6 .nav-bar_name .name_logo {
+body #x-top-bar .container .row .col-6 .nav-bar_name .name_logo {
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body .container .row .col-6 .nav-bar_name .name_logo .logo_T {
+body #x-top-bar .container .row .col-6 .nav-bar_name .name_logo .logo_T {
   border-radius: 100px;
   padding: 2%;
   height: 60px;
@@ -56,20 +71,24 @@ body .container .row .col-6 .nav-bar_name .name_logo .logo_T {
   background-color: #458FF6;
 }
 
-body .container .row .col-6 .nav-bar_name .name_logo .logo_T h1 {
+body #x-top-bar .container .row .col-6 .nav-bar_name .name_logo .logo_T h1 {
   margin-top: -50%;
   color: white;
   font-size: 53px;
 }
 
-body .container .row .col-6 .nav-bar_name .name_logo .logo_text {
+body #x-top-bar .container .row .col-6 .nav-bar_name .name_logo .logo_text {
   margin-top: 2%;
   padding: 2%;
   padding-left: 4%;
 }
 
-body .container .row .col-6 .nav-bar_name .name_logo .logo_text h1 {
+body #x-top-bar .container .row .col-6 .nav-bar_name .name_logo .logo_text h1 {
   font-size: 40px;
+}
+
+body #virtual {
+  margin-top: -3%;
 }
 
 body #virtual .container .row .col-6 h1 {
@@ -165,6 +184,10 @@ body #services .container .row .services_learn a {
   font-weight: 700;
 }
 
+body #leading {
+  margin-top: 8%;
+}
+
 body #leading .container .row .col-6 h1 {
   margin-top: 15%;
   font-size: 48px;
@@ -241,6 +264,10 @@ body #download .container .row .col-6 .download_download a {
   border: #458FF6 2px solid;
   padding: 6%;
   border-radius: 20px;
+}
+
+body #about {
+  margin-top: 8%;
 }
 
 body #about .container {
@@ -340,6 +367,10 @@ body #about .about_button button {
   border: none;
 }
 
+body #article {
+  margin-top: 8%;
+}
+
 body #article .container {
   text-align: center;
 }
@@ -420,7 +451,7 @@ body #country {
   margin-top: 12%;
   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
   color: white;
-  height: 432px;
+  height: 500px;
 }
 
 body #country .container .row {
@@ -484,5 +515,19 @@ body #country .container .row .col-3 .country_right a {
   font-size: 18px;
   line-height: 38px;
   list-style: none;
+}
+
+body #country .container .row .col-4 {
+  margin-left: -60px;
+  width: 5px;
+}
+
+body #country .container .row .col-4 .cric .cricle {
+  width: 10px;
+  height: 10px;
+  border-radius: 8px;
+  background-color: navajowhite;
+  opacity: 0.2;
+  margin-top: 16px;
 }
 /*# sourceMappingURL=ChallangeWeek01.css.map */

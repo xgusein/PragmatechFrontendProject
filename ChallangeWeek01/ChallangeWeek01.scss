@@ -10,70 +10,87 @@ $p-color:#7D7987;
 body {
     list-style: none;
 
-    .container {
-        margin-top: 4%;
-
-        .row {
-            .col-6 {
-                .buttons {
-                    margin-top: 6%;
-
-                    ul {
-                        display: flex;
-                        justify-content: space-around;
-
-                        li {
-                            a {
-                                font-size: 22px;
-                                font-weight: 400;
-                                text-decoration: none;
-                                color: #1F1534;
-                                opacity: 0.5;
-
-                                &:hover {
-                                    border-bottom: 4px solid $main-color;
-                                    opacity: 1;
+    #x-top-bar{
+        .container {
+            margin-top: 4%;
+    
+            .row {
+                .col-4{
+                    margin-top: 30px;
+                    width: 3px;
+                    margin-left: -5px;
+                    .cric{
+                        .cricle{
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 8px;
+                            background-color: #93C1F9;
+                            opacity: 0.3;
+                            margin-top: 16px;
+                        }
+                    }
+                }
+                .col-6 {
+                    .buttons {
+                        margin-top: 6%;
+    
+                        ul {
+                            display: flex;
+                            justify-content: space-around;
+    
+                            li {
+                                a {
+                                    font-size: 22px;
+                                    font-weight: 400;
+                                    text-decoration: none;
+                                    color: #1F1534;
+                                    opacity: 0.5;
+    
+                                    &:hover {
+                                        border-bottom: 4px solid $main-color;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .nav-bar_name{
+                        width: 100%;
+    
+                        .name_logo {
+                            width: 90%;
+                            display: flex;
+    
+                            .logo_T {
+                                border-radius: 100px;
+                                padding: 2%;
+                                height: 60px;
+                                margin-top: 2%;
+                                background-color: $main-color;
+    
+                                h1 {
+                                    margin-top: -50%;
+                                    color: white;
+                                    font-size: 53px;
+    
+                                }
+                            }
+    
+                            .logo_text {
+                                margin-top: 2%;
+                                padding: 2%;
+                                padding-left: 4%;
+    
+                                h1 {
+                                    font-size: 40px;
                                 }
                             }
                         }
                     }
                 }
-
-                .nav-bar_name{
-                    width: 100%;
-
-                    .name_logo {
-                        width: 90%;
-                        display: flex;
-
-                        .logo_T {
-                            border-radius: 100px;
-                            padding: 2%;
-                            height: 60px;
-                            margin-top: 2%;
-                            background-color: $main-color;
-
-                            h1 {
-                                margin-top: -50%;
-                                color: white;
-                                font-size: 53px;
-
-                            }
-                        }
-
-                        .logo_text {
-                            margin-top: 2%;
-                            padding: 2%;
-                            padding-left: 4%;
-
-                            h1 {
-                                font-size: 40px;
-                            }
-                        }
-                    }
-                }
             }
-        }
+    }
 
         // .col-6 {
         //     .buttons{
@@ -98,6 +115,7 @@ body {
     }
 
     #virtual {
+        margin-top: -3%;
         .container {
             .row {
                 .col-6 {
@@ -207,6 +225,7 @@ body {
     }
 
     #leading {
+        margin-top: 8%;
         .container {
             .row {
                 .col-6 {
@@ -303,6 +322,7 @@ body {
     }
 
     #about {
+        margin-top: 8%;
         .container {
             text-align: center;
             color: white;
@@ -407,6 +427,7 @@ body {
     }
 
     #article {
+        margin-top: 8%;
         .container {
             text-align: center;
 
@@ -494,7 +515,7 @@ body {
         margin-top: 12%;
         background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
         color: white;
-        height: 432px;
+        height: 500px;
         .container {
             .row {
                 margin-left: 5%;
@@ -556,6 +577,22 @@ body {
                     }
                 }
             }
-        }
+            .row {
+                .col-4{
+                    margin-left: -60px;
+                   width: 5px;
+                    .cric{
+                        .cricle{
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 8px;
+                            background-color: navajowhite;
+                            opacity: 0.2;
+                            
+                            margin-top: 16px;
+                        }
+                    }
+                }
+        }   }
     }
 }
