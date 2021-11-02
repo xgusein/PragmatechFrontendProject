@@ -26,7 +26,7 @@ function Myfunction() {
 //     }
 // }
 function Createnote() {
-    var user_input = document.getElementsById("user_input").value;
+    document.getElementsById("user_input").value;
     var not =document.createElement("div");
     var not1 =document.createElement("h1");
 
@@ -38,6 +38,14 @@ function Createnote() {
     not.appendChild(not1);
     all_notes.insertAdjacentElement("beforeend",not);    
 }
+
+// user_input.addEventListener("keyup",function (event) {
+//     if (event.keyCode === 13) {
+//         event.preventDefault();
+//         console.log(Createnote());
+//     }
+    
+// })
 function margin (params) {
     var random_margin = ["-5px","1px","5px","10px","15px","20px"];
     return random_margin[Math.floor(Math.random()*random_margin.length)];
