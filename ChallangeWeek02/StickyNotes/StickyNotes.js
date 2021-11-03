@@ -38,7 +38,14 @@ function Createnote() {
     not.appendChild(not1);
     all_notes.insertAdjacentElement("beforeend",not);    
 }
-
+ const user_input=document.querySelector('user_input')
+ user_input.addEventListener('keypress', e =>{
+     console.log(e)
+     if (e.keyCode === 13) {
+         Createnote()
+         e.preventDefault()
+     }
+ })    
 // user_input.addEventListener("keyup",function (event) {
 //     if (event.keyCode === 13) {
 //         event.preventDefault();
