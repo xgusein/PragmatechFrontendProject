@@ -65,6 +65,9 @@ main{
     margin-left: 1050px;
     display: flex;
 }
+.img{
+    overflow: hidden;
+}
 .img_photo{
     width: 300px;
     height: 400px;
