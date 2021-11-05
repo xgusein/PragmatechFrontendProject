@@ -25,6 +25,7 @@ function Myfunction() {
 //         document.createElement("note");
 //     }
 // }
+
 function Createnote() {
     document.getElementsById("user_input").value;
     var not =document.createElement("div");
