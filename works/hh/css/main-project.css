@@ -1,0 +1,582 @@
+.x-top-bar {
+    border: 1px solid none ;
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}
+.box {
+    border: 1px solid black;
+    height: 50px;
+    
+}
+.logo {
+    border: 1px solid none;
+    display: flex;
+    
+    
+}
+.logo span{
+    color:darkgray;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 20px;
+    
+    
+}
+.search{
+    border: 1px solid white;
+    width: 40px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.search i {
+    font-size: 25px;
+    margin-top: 12px;
+    cursor: pointer;
+    color: white;
+}
+.x-top-bar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 500px;
+    font-size: 15px;
+    
+}
+.buttons li{
+    margin: 12px;
+    
+}
+
+#x-slider{
+    height: 654px;
+background-image: url(https://www.codingdojo.com/blog/wp-content/uploads/The-7-Most-In-Demand-Programming-Languages-of-2019-Header.png);
+background-size: cover;
+}
+/* a */
+body{
+    background-color: rgb(230, 233, 238);
+}
+.fixed{
+    position: fixed;
+}
+a{
+    color: white;
+    font-family: 'open sans';
+}
+.buttons{
+    display: flex   ;
+    
+}
+ul li a:hover{
+    border-bottom: 1px solid red;
+    transition: all .10s linear ;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.HU {
+     border: 1px solid rgb(122, 54, 14);
+     width: 980px;
+     height: 600px;
+     position: absolute;
+     margin-left: 250px;
+     margin-top: 150px;
+     display: grid;
+     grid-template-columns: 1fr 1fr ;
+     grid-template-rows: 6fr 2fr;
+     background-color: white;
+}
+.al:nth-child(1) {
+    border: white;
+}
+.al:nth-child(3) {
+    grid-column: 1 /span 2;
+}
+.al:nth-child(2) {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 2fr;
+border: white;
+}
+.profile-info {
+    border-bottom: 1px solid black;
+    padding: 45px 0 0px 0;
+}
+.profile-list  {
+    width: 50px;
+}
+.al:nth-child(3) {
+    background-color: #07cb79;
+    display: flex;
+    justify-content: center;
+}
+
+.al {
+    background-color: white;
+    border: 1px solid black;
+}
+
+img{
+    height: 440px;
+    padding: 50px;
+}
+
+.ico {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.ico i{
+    color: white;
+
+
+}
+.dow{
+    border: 1px solid none ;
+    height: 50px;
+    width: 70px;
+    display: flex;
+    margin-top: 130px;
+    height: 300px;
+    width: 800px;
+    margin-left: 350px;
+}
+ .resume{ 
+    
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #3d4451 !important;
+    background: transparent;
+
+    
+}
+.resume a button{
+    margin-top: 25px;
+padding: 10px;
+font-weight: 700;
+text-transform: uppercase;
+color: #3d4451 !important;
+}
+.resume a button:hover{
+box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+.pas p {
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    color: #000;
+    line-height: 1.8;
+    text-align: center;
+}
+/* a */
+#portfolio{
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 350px;
+
+}
+.box6{
+    border: 1px solid black;
+}
+.box6 img{
+    width: 100%;
+}
+
+#portfolio h1{
+    margin-top: -50px;
+    margin-left: 350px;
+}
+.port{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid black;
+
+    width: 500px;
+    height: 500px;
+}
+/* a */
+#educa {
+    border: 1px solid black;
+    height: 500px;
+    width: 1500px;
+}
+/* a */
+.vimeo {
+    border: 1px solid black; 
+    width: 500px;
+   height: 480px;
+   margin-top: 5px;
+   margin-right: 50px;
+   position: relative;
+   overflow: hidden;
+}
+.vimeo img:hover{
+    transform: scale(1.4);
+}
+.vimeo img{
+   width: 100%;
+   height: auto;
+   position: absolute;
+   top: -50px;
+   right: -50px;
+   z-index: 0;
+   object-fit: cover;
+   transition: all .3s ease;
+   
+}
+.pho{
+    border: 1px solid none;
+    width: 110px;
+    height: 13px;
+    position: absolute;
+    top: 390px;
+    left: 180px;
+    font-size: 10px;
+    
+}
+.pho a{
+    color: black;
+    text-decoration: none;
+}
+.st{
+    border: 1px solid none;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 370px;
+    left: 155px;
+    text-align: center;
+}
+
+.ic{
+position: absolute;
+top: 380px;
+left: 155px;
+}
+.st h1{
+    margin-top: 50px;
+}
+    
+.blog1{
+   text-align: center;
+   
+}
+#blog{
+   position: relative;
+}
+
+.row-2{
+   display: flex;
+       justify-content: center;
+   
+
+}
+.time {
+   position:absolute;
+   border: 1px solid #07cb79;
+   width: 49px;
+   height: 60px;
+   margin-left: 430px;
+   background-color: #07cb79;
+   margin-top: 20px;
+   z-index: 2;
+}
+.may{
+   color: white;
+   font-size: inherit;
+   line-height: 1px;
+   font-size: 20px;
+   text-align: center;
+   display: flex;
+   margin-top: 20px;
+   margin-left: 10px;
+   font-family: inherit;
+}
+/* a */
+.te{
+    border: 1px solid white;
+    height: 150px;
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 250px; 
+    background-color: white;
+    box-shadow:0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) ;
+    
+}
+.sec{
+    border: 1px solid none;
+    height: 50px;
+    width: 235px;
+    text-align: center;
+    margin-left: 640px;
+    font-size: 30px;
+}
+#text { 
+    margin-top: 50px;
+    text-align: 1.5px ;
+    font-size: 18px;
+}
+
+.m-y h2{ 
+    margin-left: 680px;
+    border: 1px solid none;
+    font-size: 30px;
+    
+}
+.hav{
+    width: 1000px;
+    margin-left: 250px;
+    background-color: white;
+    box-shadow:0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) ;
+}
+.inter{
+    border: 1px solid none ;
+    width: 980px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 250px;
+    margin-top: -15.8px;
+    background-color: white;
+    box-shadow:0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%) ;
+    padding: 10px;
+    
+}
+.have p{
+    padding: 10px;
+    line-height: 1px;
+}
+
+.ines{
+    border: 1px solid #9ea3ac;
+    font-size: 18px;
+    
+}
+.inter i{
+    display: block;
+    width: 100%;
+    height: 10px;
+    font-size: 30px;
+    line-height: 35px;
+    cursor: pointer;
+    color: #07cb79;
+    padding: 5px;
+    
+}
+.card {
+    height: 100px;
+    padding: 15px;
+    background: lightgray;
+    border-top: 3px solid greenyellow;
+    position: relative;
+    margin: 50px;
+}
+
+ 
+
+.left{
+    margin-top: 50px;
+}
+.cards {
+    width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.right:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid lightgray;
+    position: absolute;
+    top: 60px;
+    right: -39px;
+    
+}
+
+.right:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: greenyellow;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #07cb79;
+    position: absolute;
+    top: 75px;
+    right: -55px;
+    z-index: 5;
+}
+
+.left:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: greenyellow;
+    border-radius: 50%;
+    box-shadow: #07cb79;
+    position: absolute;
+    top: 145px;
+    left: -55px;
+    z-index: 5;
+}
+
+.left:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid lightgray;
+    position: absolute;
+    top: 129px;
+    left: -40px;
+    transform: rotate( 180deg);
+}
+
+.line {
+    width: 3px;
+    background: #07cb79;
+    position: absolute;
+    height: 470px;
+    top: 5px;
+    left: 398px;
+    z-index: 4;
+    opacity: 0.7;
+    margin-top: 130px;
+}
+#edu h2{
+    text-align: center;
+}
+
+#contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+#contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+#contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    
+}
+#contact .content p{
+    font-weight: 300px;
+}
+.container-1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.box5{
+    position: relative;
+    padding: 20px;
+    display: flex;
+}
+.icon{
+    min-width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color:#07cb79 ;
+}
+ .texte{ 
+    display: flex;
+    margin: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+    margin-top: -10px;
+}
+.texte h3{
+    font-weight: 400;
+    
+}
+.ContactForm{
+    width: 470%;
+    padding: 21px;
+    background-color: #9cf3cf;
+    margin-top: -30px;    
+}
+.ContactForm h2{
+    font-size: 37px;
+    font-weight: 800;
+    color: black;
+    margin-top: -18px;
+}
+.inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.inputBox input,textarea{
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px;
+border: none;
+border-bottom: 2px solid black;
+outline: none ;
+}
+.ContactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: black;
+}

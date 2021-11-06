@@ -1,0 +1,19 @@
+.item-ac h1{
+    font-size: 16px;
+    background: goldenrod;
+    color: black;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.item-ac p{
+    /* padding: 10px 20px;
+    border: 1px solid salmon; */
+    border-top: none;
+    background-color:seagreen;
+    max-height: 0;
+    overflow: hidden;
+    transition: max height 0.5s ease-out;
+}
