@@ -157,5 +157,7 @@ val = Math.obs(-100);// pozitif edir.
 val = Math.min(1,2,3,4,5,6,7,8,9);// minimum sayi gosterir
 val = Math.max(1,2,3,4,5,6,7,8,9);// max sayinin gosterir
 val = Math.random();// Random sayi gestirer
+val = Math.floor(Math.random()*10);
+
 console.log(val);
 console.log(typeof val);
