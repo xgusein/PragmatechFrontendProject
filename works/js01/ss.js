@@ -163,18 +163,51 @@
 //------------------------------------------------------
 //number metoduna uygun calismalar
 //1
-var num =15.123456789;
-console.log(num.toPrecision(3));
-console.log(num.toFixed(3));
-console.log(Math.round(num));
-console.log(Math.ceil(num));
-console.log(Math.floor(num));
-console.log(Math.min(1,20,15,17,80));
-console.log(Math.max(1,20,15,17,80));
-min = 50;
-max = 100
-console.log(min+Math.random()*(max-min));
+// var num =15.123456789;
+// console.log(num.toPrecision(3));
+// console.log(num.toFixed(3));
+// console.log(Math.round(num));
+// console.log(Math.ceil(num));
+// console.log(Math.floor(num));
+// console.log(Math.min(1,20,15,17,80));
+// console.log(Math.max(1,20,15,17,80));
+// min = 50;
+// max = 100
+// console.log(min+Math.random()*(max-min));
 
 //String
+// const Fristname = "Sadik";
+// const lastName ="Turan";
+// const age =35;
+// let val;
+// // String contact;
+// val = Fristname +""+lastName;
+// val = 'Sadik';
+// val += ' Turan';
+// val = 'Benim adim'+Fristname+''+lastName+' ve yasim ' + age +"izmit'te yasiyorum.";
+
+// // string concat
+// val =Fristname.concat('',lastName);
+// // string length
+// val = val.length;
+// // string uppercase - lowercase
+// val = val.toUppercase();
+// val = val.toLowercase();
+
+// val = val.indexOf('x')// yerin gosterir ve eeger yoxdursa -1 gosterir
+// //substring
+// val = val.substring(3,5);//  3den baslayir 5e kimi hamsin gosterir
+// //slice
+// val = val.slice(5);// = yuxardakina 5 yazanda 5den sna kimi hamsi yazilir.
+// //replace deyisdirir
+// val = val.replace('sadik', 'cinar');//ilki deyisir sonda yazilana
+// //trim basdaki sondaki bosluq alinir
+// val = val.trim();
+// //split ayirmaq
+// val = hobbies.split(',');// ayirir ve objye donur
+
+// console.log(val);
+//Template Literals
+
 
 
