@@ -138,26 +138,43 @@
 
 // Numbers and Number metodlari
 
-let val;
-val = Number('10');
-val = parseInt('10.5');
-val = parseFloat('10.5');
-val = parseInt('a10a');
-val = isNaN('10');
-var num = 10.12456789;
-val = num.toPrecision(6); ////////////// 6-ci reqeme kimi yazir sonu yuvarlaqlasdirir.
-val = num.toFixed(2); //// . den sonraki reqemleri yazir amma yene yuvarlaqlasdirir
-val = Math.PI;
-val = Math.round(2.45);//en yaxin sayiya yuvarlaqlasdirmaq
-val = Math.ceil(2.5);//=>3 ozunden sonrakina hemise yuvarlaqlasdirir.
-val = Math.floor(5.7);//=>5 ozunden evvele edir.
-val = Math.sqrt(64);// =>8 koke salir.
-val = Math.pow(2,4);//2 usdu 4 .
-val = Math.obs(-100);// pozitif edir.
-val = Math.min(1,2,3,4,5,6,7,8,9);// minimum sayi gosterir
-val = Math.max(1,2,3,4,5,6,7,8,9);// max sayinin gosterir
-val = Math.random();// Random sayi gestirer
-val = Math.floor(Math.random()*10);
+// let val;
+// val = Number('10');
+// val = parseInt('10.5');
+// val = parseFloat('10.5');
+// val = parseInt('a10a');
+// val = isNaN('10');
+// var num = 10.12456789;
+// val = num.toPrecision(6); ////////////// 6-ci reqeme kimi yazir sonu yuvarlaqlasdirir.
+// val = num.toFixed(2); //// . den sonraki reqemleri yazir amma yene yuvarlaqlasdirir
+// val = Math.PI;
+// val = Math.round(2.45);//en yaxin sayiya yuvarlaqlasdirmaq
+// val = Math.ceil(2.5);//=>3 ozunden sonrakina hemise yuvarlaqlasdirir.
+// val = Math.floor(5.7);//=>5 ozunden evvele edir.
+// val = Math.sqrt(64);// =>8 koke salir.
+// val = Math.pow(2,4);//2 usdu 4 .
+// val = Math.obs(-100);// pozitif edir.
+// val = Math.min(1,2,3,4,5,6,7,8,9);// minimum sayi gosterir
+// val = Math.max(1,2,3,4,5,6,7,8,9);// max sayinin gosterir
+// val = Math.random();// Random sayi gestirer
+// val = Math.floor(Math.random()*10);
+// console.log(val);
+// console.log(typeof val);
+//------------------------------------------------------
+//number metoduna uygun calismalar
+//1
+var num =15.123456789;
+console.log(num.toPrecision(3));
+console.log(num.toFixed(3));
+console.log(Math.round(num));
+console.log(Math.ceil(num));
+console.log(Math.floor(num));
+console.log(Math.min(1,20,15,17,80));
+console.log(Math.max(1,20,15,17,80));
+min = 50;
+max = 100
+console.log(min+Math.random()*(max-min));
 
-console.log(val);
-console.log(typeof val);
+//String
+
+
