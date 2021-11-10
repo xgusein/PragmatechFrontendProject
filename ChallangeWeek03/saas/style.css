@@ -1,0 +1,59 @@
+:root {
+  --primary-color:black;
+  --secondary-color:white;
+}
+
+.dark-them {
+  --primary-color:#fff;
+  --secondary-color:#2C3539;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+body .container .begining {
+  margin-left: 600px;
+  margin-top: 150px;
+}
+
+body .container .begining h1 {
+  font-size: 500%;
+}
+
+body .container .begining .start {
+  background-color: lightblue;
+  color: white;
+  width: 20%;
+  height: 50px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+body .container .quiz {
+  text-align: center;
+  margin-left: -70px;
+}
+
+body .container .quiz .buto {
+  margin-left: 600px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .quiz .buto button {
+  color: white;
+  background-color: lightblue;
+}
+
+body .container .mod {
+  font-size: 300%;
+  margin-top: 150px;
+}
+/*# sourceMappingURL=style.css.map */

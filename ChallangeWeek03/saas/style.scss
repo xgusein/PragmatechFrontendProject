@@ -1,0 +1,53 @@
+// .dark{
+//     $wh: #fff;
+//     $bW:#2C3539;
+// }
+:root{
+    --primary-color:black;
+    --secondary-color:white;
+}
+.dark-them{
+    --primary-color:#fff;
+ --secondary-color:#2C3539;  
+}
+body{
+    background-color: var(--secondary-color);
+    color: var(--primary-color); 
+    .container{
+        .begining{
+            margin-left: 600px;
+            margin-top: 150px;
+            h1{
+                font-size:500%;
+            }
+            .start{
+                background-color: lightblue;
+                color: white;
+                width: 20%;
+                height: 50px;
+                margin-left: 30px;
+                cursor: pointer;
+            }
+        }
+        .quiz{
+            text-align: center;
+            margin-left: -70px;
+            .buto{
+                margin-left: 600px;
+                justify-content: space-evenly;
+                width: 400px;
+                display: flex;
+                button{
+                    color: white;
+                    background-color: lightblue;
+                }
+                
+            }
+        }
+
+        .mod{
+            font-size: 300%;
+            margin-top: 150px;
+        }
+    }
+}
