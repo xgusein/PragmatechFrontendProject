@@ -210,4 +210,90 @@
 //Template Literals
 
 
+//diziler - dizi metodlari // arrays
+// let names = ['Anar','Zaur','Tomrul','Kamil'];
+// let years = [1995,2017,2002,2005];
+// let mix = ['Sabir','Ada',1996,null,undefined,['kino','qelem']];
+
+// // get array items
+// console.log(names[0]);
+// console.log(names[3]);
+
+// //set array item hansisa elementi deyisir
+// names[0] ='emel';// istenilen yere qoyulur
+// names[names.length]='ehmed'; // sonuncu elave edir.
+// // add item 
+// years.push(1986);
+// years.unshift(2001);// en basa atar
+// // remove item 
+// years.pop(); // bele yazilsa sondaki siliner
+// years.shift(); // basdaki siliner
+// // indexof
+// let index = names.indexOf('ada');
+// console.log('index :'+index);
+// //reverse  tersden yazir 
+// names.reverse();
+// // sort
+// years.sort() // reqemleri balacadan boyuye duzur ve yaxud striinglerde herfleri sirasina gore duzur
+
+// //concat arraylari  birlesdirme
+
+// let val = years.concat(names);// years in sonuna names elave olundu
+// console.log(val);
+
+// // splice 
+// names.splice(2,0,'seda');//2ci elementden sonra seda yazilsin 0 yerine 1 olsa idi 2ciden sonraki 1ci elementi silib yerine seda yazacaqdi
+// names.splice(0,1,);// ilk elementi sildirdi
+
+// //find
+// function over18(year) {
+//     let age = 2018 - year;
+//co     return age>=18
+// }
+//  let val = years.find(over18);
+// console.log(val);
+
+
+
+// //filter
+// function over18(year) {
+//     let age = 2018 - year;
+//     return age>=18
+// }
+//  let val = years.filter(over18);
+// console.log(val);
+
+// console.log(names.length);
+// console.log(names);
+// console.log(typeof names);
+
+// console.log(years);
+// console.log(mix);
+
+let car = ['Bmw','Mercedes','Opel','Mazda']
+a = car.length;
+console.log(a);
+console.log(car[0]);
+console.log(car[3]);
+console.log(car.push('Renault'));
+// arr[arr.length] = ""
+console.log(car.unshift('Toyota'))
+car.shift('Bmw');
+car.pop('Renault');
+car.reverse();
+car.sort();
+console.log(car.indexOf('Opel'));
+console.log(arr.includes('Opel'));
+var str = "Chevrolet,Dacia";
+var arr2 =  str.split(',');
+console.log(arr2);
+let arr3 = console.log(car.concat(arr2));
+console.log(arr3.splice(6,2));
+var studentA =  ['Yigit','Bilgi',2010];
+var studentB = ['Sena','Turan',1999];
+var studentC = ['Ahmet','Turan',1998];
+var students =[studentA,studentB,studentC];
+console.log(students[0]);
+console.log(students[0][0]);
+
 
