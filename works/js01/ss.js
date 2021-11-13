@@ -270,30 +270,74 @@
 // console.log(years);
 // console.log(mix);
 
-let car = ['Bmw','Mercedes','Opel','Mazda']
-a = car.length;
-console.log(a);
-console.log(car[0]);
-console.log(car[3]);
-console.log(car.push('Renault'));
-// arr[arr.length] = ""
-console.log(car.unshift('Toyota'))
-car.shift('Bmw');
-car.pop('Renault');
-car.reverse();
-car.sort();
-console.log(car.indexOf('Opel'));
-console.log(arr.includes('Opel'));
-var str = "Chevrolet,Dacia";
-var arr2 =  str.split(',');
-console.log(arr2);
-let arr3 = console.log(car.concat(arr2));
-console.log(arr3.splice(6,2));
-var studentA =  ['Yigit','Bilgi',2010];
-var studentB = ['Sena','Turan',1999];
-var studentC = ['Ahmet','Turan',1998];
-var students =[studentA,studentB,studentC];
-console.log(students[0]);
-console.log(students[0][0]);
+// let car = ['Bmw','Mercedes','Opel','Mazda']
+// a = car.length;
+// console.log(a);
+// console.log(car[0]);
+// console.log(car[3]);
+// console.log(car.push('Renault'));
+// // arr[arr.length] = ""
+// console.log(car.unshift('Toyota'))
+// car.shift('Bmw');
+// car.pop('Renault');
+// car.reverse();
+// car.sort();
+// console.log(car.indexOf('Opel'));
+// console.log(arr.includes('Opel'));
+// var str = "Chevrolet,Dacia";
+// var arr2 =  str.split(',');
+// console.log(arr2);
+// let arr3 = console.log(car.concat(arr2));
+// console.log(arr3.splice(6,2));
+// var studentA =  ['Yigit','Bilgi',2010];
+// var studentB = ['Sena','Turan',1999];
+// var studentC = ['Ahmet','Turan',1998];
+// var students =[studentA,studentB,studentC];
+// console.log(students[0]);
+// console.log(students[0][0]);
+//------------------------------------------------------------------------------------------
 
+// if / else statements
+// const firstName='Sena';
+// const age = 19;
+// const isStudent = true;
+// const school = 'university';
+// if (firstName == 'Sena'){
+//     console.log('Salam Sena');
+// }
+
+// if (age == 19) {
+//     console.log('yasiniz 19');//=== etsek tipinde yoxlayir
+// }
+
+// if (isStudent){
+//     console.log('Hello Student');
+// }else{
+//     console.log('Hello Whats up');
+// };
+
+// if (age>=18){
+//     if ((school == 'university') || (school == 'high school')) {
+//         console.log('prava ala bilersiz');
+//     } else{
+//         console.log('tehsiliniz yetersizdi')
+//     }
+// }else{
+//     console.log('yasiviz catmir');
+// };
+
+// if (age>0 && age<12 ) {
+//     console.log(`${firstName} is a child`);
+// }else if (age >=13 && age <=19){
+//     console.log(`${firstName} is a teenager`);
+// }else{
+//      console.log(`${firstName} is a adult`);
+// };
+
+// //undefined
+// if (typeof id  !== 'undefined') {
+//     console.log('id: '+id);    
+// }else{
+//     console.log('no id');
+// }
 
