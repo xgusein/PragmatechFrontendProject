@@ -342,29 +342,35 @@
 // }
 //-------------------------------------------------------------------------------
 //switch
-let day;
-switch(new Date().getDay()){
-    case 0:
-        day = 'Pazar';
-        break;
-    case 1:
-        day = 'Pazartesi';
-        break;
-    case 2:
-        day = 'Sali';
-        break;    
-    case 3 :
-        day = 'Carsamba';
-        break;
-    case 4:
-        day = 'Persembe'
-        break;
-    case 5:
-        day = 'Cuma'
-        break;
-    case 6:
-        day = 'Cumartesi'
-        break;    
-};
-console.log(`bugun gunlerden ${day}`); 
+// let day;
+// switch(new Date().getDay()){
+//     case 0:
+//         day = 'Pazar';
+//         break;
+//     case 1:
+//         day = 'Pazartesi';
+//         break;
+//     case 2:
+//         day = 'Sali';
+//         break;    
+//     case 3 :
+//         day = 'Carsamba';
+//         break;
+//     case 4:
+//         day = 'Persembe'
+//         break;
+//     case 5:
+//         day = 'Cuma'
+//         break;
+//     case 6:
+//         day = 'Cumartesi'
+//         break;    
+// };
+// console.log(`bugun gunlerden ${day}`); 
+
+// Calisma
+var trafigeCikis = new Date('04/20/2016');
+trafigeCikis.setHours(0,0,0,0);
+var trafiktekiMs = Date.now() - trafigeCikis.getTime();
+console.log(trafiktekiMs);
 
