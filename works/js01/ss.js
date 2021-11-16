@@ -369,23 +369,66 @@
 // console.log(`bugun gunlerden ${day}`); 
 
 // Calisma
-var trafigeCikis = new Date('04/20/2016');
-trafigeCikis.setHours(0,0,0,0);
-var trafiktekiMs = Date.now() - trafigeCikis.getTime();
-console.log(trafiktekiMs);
+// var trafigeCikis = new Date('04/20/2016');
+// trafigeCikis.setHours(0,0,0,0);
+// var trafiktekiMs = Date.now() - trafigeCikis.getTime();
+// console.log(trafiktekiMs);
 
-var resault = prompt("Who's there");
-if (resault == 'cancel') {
-    console.log('cancelled');
-}else if (result =='Admin') {
-    var password = prompt('enter your password');
-    if (password =='cancel') {
-        console.log('cancelled');
-    }else if (password== '1234') {
-         console.log('welcome Admin');
-    }else{
-        console.log('wrong password');
-    }
-}else{
-    console.log('I do not know');
-}
+// var resault = prompt("Who's there");
+// if (resault == 'cancel') {
+//     console.log('cancelled');
+// }else if (result =='Admin') {
+//     var password = prompt('enter your password');
+//     if (password =='cancel') {
+//         console.log('cancelled');
+//     }else if (password== '1234') {
+//          console.log('welcome Admin');
+//     }else{
+//         console.log('wrong password');
+//     }
+// }else{
+//     console.log('I do not know');
+// }
+//-----------------------------------------------------------------------------------------
+
+
+
+// Object Literals
+
+// let val;
+// let person = {
+//     firstName : 'Cinar',
+//     lastName : 'Turan',
+//     age : 7,
+//     hobbies : ['music','game'];
+//     address : {
+//         city : 'Kocaeli',
+//         country : 'Turkiye'
+//     }
+// };
+
+// val = person;
+// val = person.firstName;
+// val = person.lastName;
+// val = person['firstName'];
+// val = person.age;
+// val = person.hobbies;
+// val = person.hobbies[1];
+// val = person.hobbies.length;
+// val = person.address;
+// val = person.address.city;
+// val = person.address['city'];
+// console.log(val);
+
+// let people = [
+//                 {firstName : 'Cinar',lastName:'Turan'},
+//                 {firstName : 'Sena',lastName:'Turan'},
+//                 {firstName : 'Seda',lastName:'Turan'},
+//               ];
+// val =  people[2];
+// val =  people[2].firstName; 
+
+
+// console.log(val);            
+// console.log(people);              
+
