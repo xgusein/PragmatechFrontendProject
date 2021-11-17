@@ -473,24 +473,50 @@
 //    }
 // }
 // console.log(sonuc);
-for (let i=0;i<10;i++){
+// for (let i=0;i<10;i++){
 
-    for(let j=0;i<10;i++){
-        console.log(`i : ${i} j : ${j}`);
-    }
-}
+//     for(let j=0;i<10;i++){
+//         console.log(`i : ${i} j : ${j}`);
+//     }
+// }
 
-// Loops in Array & Objects
+// // Loops in Array & Objects
 
-let cars =['Bmw','Mercedes','Toyota'];
-for(let i=0;i<cars.length;i++){
-    console.log(cars[i]);
-}
+// let cars =['Bmw','Mercedes','Toyota'];
+// for(let i=0;i<cars.length;i++){
+//     console.log(cars[i]);
+// }
 
-// for-in
-for(let i in cars){
-    console.log(`index : ${i} value : ${cars[i]}`);
-}
+// // for-in
+// for(let i in cars){
+//     console.log(`index : ${i} value : ${cars[i]}`);
+// }
 
-//foreach
+// //foreach
+// cars.forEach(function(item) {
+//     console.log(item);
+// });
 
+// // map : returns an array
+
+//task
+// var hak = 5;
+// var tahmin;
+// var sayi = Math.floor((Math.random()*10)+1);
+// console.log(sayi);
+// while (hak>0){
+//     hak--;
+//     sayac++;
+//     tahmin = Number(prompt('bir sayi giriniz'));
+//     if (sayi == tahmin){
+//         console.log(`Tebrikler ${sayac} defada bildiniz`);
+//         break;
+//     }else if (sayi>tahmin){
+//         console.log('asagi');
+//     }else{
+//         console.log('yuxari');
+//     }
+//     if (hak==0) {
+//         console.log('hakkiniz bitti' +sayi);
+//     }
+// }
