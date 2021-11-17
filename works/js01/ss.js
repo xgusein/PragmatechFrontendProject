@@ -431,4 +431,66 @@
 
 // console.log(val);            
 // console.log(people);              
+//-------------------------------------------------------------------
+
+//Loops(Donguler)
+
+
+
+// for loop
+
+// for (let i=1; i<=10; i++){
+//     if (i==3) {
+//         console.log('my favorite number'+i);
+//         continue;
+//     }
+//     if (i==6) {
+//         console.log('unlucky');
+//         break;
+//     }
+//     console.log(i);
+// };
+
+//while loop
+
+// let i=0;
+// while(i<0){
+//     console.log(i);
+//     i++;
+// };
+
+// do -While loop
+// let i=0;
+// do{
+//     console.log(i);
+//     i++;
+// }while(i<10);
+
+// sonuc=1;
+// for(let i=10;i>0;i--){
+//    if (i%2==0) {
+//        sonuc*=i;
+//    }
+// }
+// console.log(sonuc);
+for (let i=0;i<10;i++){
+
+    for(let j=0;i<10;i++){
+        console.log(`i : ${i} j : ${j}`);
+    }
+}
+
+// Loops in Array & Objects
+
+let cars =['Bmw','Mercedes','Toyota'];
+for(let i=0;i<cars.length;i++){
+    console.log(cars[i]);
+}
+
+// for-in
+for(let i in cars){
+    console.log(`index : ${i} value : ${cars[i]}`);
+}
+
+//foreach
 
