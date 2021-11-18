@@ -523,92 +523,92 @@
 //---------------------------------------------------------
 
 //Function
-function yasHesapla(dogumYili){
-    return 2018 - dogumYili;
-}
+// function yasHesapla(dogumYili){
+//     return 2018 - dogumYili;
+// }
 
-let ageAda = yasHesapla(2012);
-let ageYigit = yasHesapla(2010);
-let ageCinar = yasHesapla(2017);
-console.log(ageAda);
-console.log(ageCinar);
-console.log(ageYigit);
-function EmekligeKacYilKaldi(dogumYili,isim){
-    let yas = yasHesapla(dogumYili);
-    let emeklilik = 65 - yas;
-    if(emeklilik>0){
-        console.log(`${isim} emekli olmana ${emeklilik} yil kaldi`);
-    }else{
-        console.log('Zaten emekli oldunuz');
-    }
-}
-EmekligeKacYilKaldi(2012,'Sara');
-EmekligeKacYilKaldi(2002,'Rasim');
-EmekligeKacYilKaldi(1996,'Araz');
+// let ageAda = yasHesapla(2012);
+// let ageYigit = yasHesapla(2010);
+// let ageCinar = yasHesapla(2017);
+// console.log(ageAda);
+// console.log(ageCinar);
+// console.log(ageYigit);
+// function EmekligeKacYilKaldi(dogumYili,isim){
+//     let yas = yasHesapla(dogumYili);
+//     let emeklilik = 65 - yas;
+//     if(emeklilik>0){
+//         console.log(`${isim} emekli olmana ${emeklilik} yil kaldi`);
+//     }else{
+//         console.log('Zaten emekli oldunuz');
+//     }
+// }
+// EmekligeKacYilKaldi(2012,'Sara');
+// EmekligeKacYilKaldi(2002,'Rasim');
+// EmekligeKacYilKaldi(1996,'Araz');
 
-// Function Declarations & Expressions
-//Declarations
+// // Function Declarations & Expressions
+// //Declarations
 
-function sum(a,b){
-    c = a+b;
-    return c;
-}
-console.log(sum(10,20));
+// function sum(a,b){
+//     c = a+b;
+//     return c;
+// }
+// console.log(sum(10,20));
 
-//Expressions
-//  a ve b yi if siz yazmaqda olar parametr yerinde default(ES6 Default Parameters) ozelliyi ile a=0 b=0 yazila biler
-const sum = function(a,b){   // sum burda deyisken kimidir
-    //eger NaN olmasin istemirikse bunu yazacayiq
-    if(typeof a === 'undefined'){ a=0; }
-    if(typeof b === 'undefined'){ b=0; }
-    c = a+b;
-    return c;
-}
+// //Expressions
+// //  a ve b yi if siz yazmaqda olar parametr yerinde default(ES6 Default Parameters) ozelliyi ile a=0 b=0 yazila biler
+// const sum = function(a,b){   // sum burda deyisken kimidir
+//     //eger NaN olmasin istemirikse bunu yazacayiq
+//     if(typeof a === 'undefined'){ a=0; }
+//     if(typeof b === 'undefined'){ b=0; }
+//     c = a+b;
+//     return c;
+// }
 
-function sumAll(){
-    var total = 0;
-    for( let i =0;i<arguments.length;i++){
-        total+=arguments[i];
-    }
-    return total;
-}
+// function sumAll(){
+//     var total = 0;
+//     for( let i =0;i<arguments.length;i++){
+//         total+=arguments[i];
+//     }
+//     return total;
+// }
 
-console.log(sumAll(70,80,90));
-console.log(sum(10,20));
-console.log(sum(50));//NaN
-console.log(sum(10,20,50));//50-ye fikir verilmeyecek
+// console.log(sumAll(70,80,90));
+// console.log(sum(10,20));
+// console.log(sum(50));//NaN
+// console.log(sum(10,20,50));//50-ye fikir verilmeyecek
 
-//Demo : Functions
-var hesabA= {
-    ad : 'Akif Zeynalli',
-    hesapNo : '12345678',
-    bakiye : 3000,
-    ekHesap : 2000
-}
+// //Demo : Functions
+// var hesabA= {
+//     ad : 'Akif Zeynalli',
+//     hesapNo : '12345678',
+//     bakiye : 3000,
+//     ekHesap : 2000
+// }
 
-var hesabB= {
-    ad : 'Tomrul Orujov',
-    hesapNo : '123456911',
-    bakiye : 9000,
-    ekHesap : 4000
-}
+// var hesabB= {
+//     ad : 'Tomrul Orujov',
+//     hesapNo : '123456911',
+//     bakiye : 9000,
+//     ekHesap : 4000
+// }
 
-function paraCekme(hesap,miktar){
-    console.log(`Salam ${hesab.ad}`);
-    if(hesab.bakiye>miktar){
-        console.log('Puluvuzu ala bilersiz');
-    }else{
-        var toplam = hesab.bakiye + hesap.ekHesap;
-        if(toplam>miktar){
-            if (confirm)('ek hesabi istifade elemek isteyirsiniz'){
-                console.log('puluvuzu ala bilersiz');
-            }else{
-                console.log(`${hesap.hesapNo} noluhesabinizda ${miktar} bulunmamaktadir.`);
-            }
+// function paraCekme(hesap,miktar){
+//     console.log(`Salam ${hesab.ad}`);
+//     if(hesab.bakiye>miktar){
+//         console.log('Puluvuzu ala bilersiz');
+//     }else{
+//         var toplam = hesab.bakiye + hesap.ekHesap;
+//         if(toplam>miktar){
+//             if (confirm)('ek hesabi istifade elemek isteyirsiniz'){
+//                 console.log('puluvuzu ala bilersiz');
+//             }else{
+//                 console.log(`${hesap.hesapNo} noluhesabinizda ${miktar} bulunmamaktadir.`);
+//             }
 
-        }else{
-            console.log('uzgunuz bakiye yetersiz');
-        }
-    }
+//         }else{
+//             console.log('uzgunuz bakiye yetersiz');
+//         }
+//     }
 
-}
+// }

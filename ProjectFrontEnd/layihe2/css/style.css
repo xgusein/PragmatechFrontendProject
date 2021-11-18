@@ -15,6 +15,14 @@ body {
     padding: 10px;
 }
 
+.buttons {
+    overflow: hidden;
+}
+
+.btn {
+    display: flex;
+}
+
 .buttons ul {
     display: flex;
     padding: 10px;
@@ -52,8 +60,6 @@ body {
     left: 250px;
     color: white;
 
-
-
 }
 
 .writ {
@@ -63,8 +69,6 @@ body {
     display: flex;
     justify-content: center;
     margin: 10px;
-
-
 }
 
 .pro {
@@ -94,13 +98,7 @@ body {
 
 }
 
-/* .box ::before{
-    background: #ff305b;
-    content: "";
-    width: 150px;
-    height: 45px;
-    
-} */
+
 .box :hover {
     box-shadow: inset 300 0 0 0 #ff305b;
 }
@@ -120,11 +118,7 @@ body {
     color: #ff305b;
 }
 
-/* .box1 :hover{ 
-    transition: all .10s linear;
-    background: #ff305b;
-    color: white;
- } */
+
 .bor {
     border-top: 2px solid #ff305b;
     border-bottom: 2px solid #ff305b;
@@ -246,6 +240,7 @@ td {
     font-weight: 600;
 
 }
+    
 
 .por ul li a {
     text-decoration: none;
@@ -261,23 +256,6 @@ td {
     color: #ff305b;
 }
 
-/* .porro{
-    display: grid;
-    padding: 50px;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 500% 500% ;
-    margin-left: 180px;
-    gap: 30px
-}
-.poro{
-    border: 1px solid black; */
-/* ayirrrrrrrrrr */
-/* width: 100px; */
-/* height: 100px; */
-/* padding: 50px; */
-/* grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10%; */
-/* grid-template-rows: ; */
-/* } */
 .porroo {
     height: 200px;
 }
@@ -377,52 +355,14 @@ td {
 
 }
 
-/* .view{
-  
-  top: ;
-}
-.view h2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 10px;
-} */
 #fifth {
-    margin-top: 100px;
+    margin-top: 250px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #f7f7f7;
     ;
 }
 
-/* #fifth h2{
-    margin-top: 100px;
-    
-    
-} */
 
-/* }
-.ico{
-    margin-left: -70px;
-    width: 100%;
-    justify-content: space-around;
-    display: flex;
-     height: 1000px;
-     margin-top: 60px;
-     text-align: center;} */
-
-/* .ico i{
-    background-color: black;
-    color: white;
-    padding: 10%;     */
-/* .i-1 h3{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 100%; */
-
-/* .i-1 p{
-    color:#878787; */
-
-/* .i-1 p :hover{
-    transition: all 10.s linear;
-    color: #ff305b;
-} */
 
 .co1 {
     text-align: center;
@@ -436,13 +376,27 @@ td {
     justify-content: space-around;
     width: 50px;
     padding: 5%;
-    margin-left: 140px;
+    margin-left: 87px;
     border-radius: 1px;
 }
+
 .i-1 {
     margin-left: 80px;
+    margin-top: 7%;
     text-align: center;
+}
 
+.i-1 p {
+    margin-left: -90px;
+}
+
+.i-1 h3 {
+    margin-left: -98px;
+    margin-top: 4%;
+}
+
+.row {
+    margin-right: 0%;
 }
 
 .ss h3 {
@@ -519,53 +473,64 @@ td {
     font-weight: 400;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.main-education{
+
+.main-education {
     margin-top: 40px;
     text-align: center;
 }
-.BIG{
+
+.BIG {
     display: flex;
     padding: 5%;
     justify-content: center;
 }
-.SMALL-BOX{
+
+.SMALL-BOX {
     width: 250px;
-    border:1px solid gray;
+    border: 1px solid gray;
 }
-.SMALL-BOX1{
+
+.SMALL-BOX1 {
     width: 350px;
     border: 1px solid lightgray;
-    
+
 }
+
 .SMALL-BOX1 p {
     padding: 5%;
     opacity: 0.8;
 }
-.length{
+
+.length {
     width: 100%;
     height: 30px;
     color: white;
     background-color: #ff305b;
     padding: 2%;
 }
-.inf{
+
+.inf {
     padding: 8%;
 }
+
 .inf h5 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 15px;
 }
-.inf p{
+
+.inf p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
 }
-.BOX{
+
+.BOX {
     display: flex;
     height: 150px;
     width: 600px;
     margin-bottom: 5%;
 }
+
 .year {
     background-color: #ff305b;
     display: flex;
@@ -599,58 +564,119 @@ td {
 }
 
 #slider {
-    margin-top: 20%;
-    height: 400px;
-    background: rgb(0, 0, 0, 0.7) url(/ProjectFrontEnd/layihe2/images/bg.jpg);
-    background-size: cover;
-    background-blend-mode: darken;
+    margin-top: 250px;
 
 }
 
-/* #slider img{
-    background: black;
+.ima img {
     width: 100%;
-    height: 400px;
-    object-fit: cover;
-    background-blend-mode: darken;
-} */
-.boxx{
-    display: flex;
-    justify-content: space-between;
-    max-width: 3000px;
-  /* position: relative; */
-  
-}
-.boxxx {
-    width: 3000px;
-    text-align: center;
-    overflow: hidden;
-    margin-left: 90px;
-}
-
-.col-4 .boxx {
-    /* display: flex; */
-    text-align: center;
-
-
-}
-
-.boxxx p {
-    color: white;
-}
-
-.boxxx i {
-    margin-top: 100px;
-    color: white;
-    font-size: 30px;
-}
-
-.control {
+    height: 430px;
     position: absolute;
-    margin-top: 350px;
-    margin-left: 50%;
+    opacity: .9;
+
 }
 
-.control button {
-    background: none;
+.slideshow-container {
+    position: relative;
+    top: 90px;
+
 }
+
+/* Slides */
+.mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    /* background: #ddd; */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+    color: cornflowerblue;
+}
+
+/* pages ucun css */
+.item {
+    margin-top: -17px;
+    overflow: hidden;
+}
+
+.smenu {
+    overflow: hidden;
+    max-height: 0;
+    margin-top: -20px;
+}
+
+.smenu a {
+    display: block;
+    position: relative;
+}
+
+.item:target .smenu {
+    max-height: 10em;
+}
+
+/* planset */
+@media only screen and (max-width:992px) {}
+
+/* telefon */
+@media only screen and (max-width:768px) {}

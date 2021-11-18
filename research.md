@@ -71,3 +71,33 @@ const car = {
 4)İnterfeys - Java -da İnterfeys istifadə edildikdə, yalnız öz bədənindən yaranan alt siniflər istifadə olunur və doldurulmalı olan içi boş bir metod tərifi yerinə yetirilir. Yaddaqalanlığı bir az da artırmaq üçün, Java İnterfeysi nədir sualına cavab olaraq yerinə yetirilməsi lazım olan bir bələdçi və ya tapşırıqlar toplusunu nümunə edərək bu suala cavab verə bilərik.
 
 4) Proqramlaşdırmadı boş deyə bir anlayış yoxdur.Proqramlama məntiqində boş dəyərdə bir dəyər olduğunda, günlük həyatımızdakı kimi yoxluğ ifadə etməz. Əgər siz bir boşluğu idarə etmək istəyirsinizsə null funksiyasın istifadə etməlisiniz. Məsələn,  ir dəyişkən null dəyərinə sahipsə o dəyişkənin dəyəri yoxdur amma bir dəyişkən bir dəyərə sahipsə onun dəyəri vardır və boşluğdur.
+
+
+
+
+
+1)Hal-hazırda təməl olarağ 5 paradigmma vardır.
+  1.Məcburi Proqramlaşdırma Paradiqması (Imperative)
+  2.Funksional Proqramlaşdırma Paradiqması (Functional)
+  3.Obyekt yönümlü proqramlaşdırma paradiqması (Object Oriented)
+  4.Paralelizm (Parallelism)
+  5.Məntiqi Proqramlaşdırma Paradiqması (Logical)
+
+
+1.Məcburi Proqramlaşdırma Paradiqması (Imperative)
+
+
+
+
+
+-------------------------------------------------------------------
+xüsusi bir işi yerinə yetirmək üçün yaradılmışdırş
+1)Funksiya sayesinde yazdığmız bütün kodlari təkrar təkrar işlədə bilərik.
+2)eyni kodu təzdən yazmağımıza ehtiyac olmaz
+3)funksiyalar proqramlarin daha balaca hisselere parçalanmasına kömək edər.
+4) Buda onun daha başa düşüln olmağına kömək edər.
+
+-----------------
+Arqumentlər bir funksiyanı çağırarkən göndərdiyimiz dəyərləri (arqument siyahısı) ehtiva edir. Bu dəyərlərin dinamik olaraq funksiyaya keçməsinə və əlçatan olmasına imkan verir. Beləliklə, arqumentlərlə, yaradılmış funksiyanızın neçə parametrə malik olacağını göstərməyə ehtiyac yoxdur.
+
+

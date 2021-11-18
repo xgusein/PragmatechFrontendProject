@@ -15,12 +15,12 @@
 //     surname:'Memmedli'
 // })
 
-let names=['Zohrab','Qurbani','Iskender','Nezrin','Ferid','Huseyn'];
-let teleb = names.filter(name => name.length > 5);
-console.log(teleb);
-let boyuk = names.map(big => big.toUpperCase());
-console.log(boyuk);
-console.log(names.toString())
+// let names=['Zohrab','Qurbani','Iskender','Nezrin','Ferid','Huseyn'];
+// let teleb = names.filter(name => name.length > 5);
+// console.log(teleb);
+// let boyuk = names.map(big => big.toUpperCase());
+// console.log(boyuk);
+// console.log(names.toString())
 
 // function element(box) {
 //     for(let i in box ){
@@ -31,4 +31,5 @@ console.log(names.toString())
 //     }
 // }
 // console.log(names.length)
+
 
