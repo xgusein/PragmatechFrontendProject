@@ -612,3 +612,29 @@
 //     }
 
 // }
+//Window object
+let val;
+var a = 10;
+function abc(){
+    return 0;
+};
+val = window;
+//alert
+alert('salam');
+var b = prompt('ad yaz');//dəyər tələb  edir
+console.log(b);
+var confirm = confirm('razisiz?');//  true olsa okey sec false ise no
+console.log(confirm);
+//scroll
+val = window.scrollX
+val = window.scrollY
+//location
+val = window.location;
+val = window.location.href;
+val = window.location.hostname;
+val = window.location.host;
+val = window.location.protocol;
+val = window.location.search;
+val = window.location.href='http://Huseynibadzade.com';//yeni sehife
+window.location.reload();//refresh edir her saniye
+window.navigator//brauzerin haqqinda extra bilgi
