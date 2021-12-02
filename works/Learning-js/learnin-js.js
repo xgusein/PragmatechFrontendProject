@@ -693,4 +693,34 @@
 // val.forEach(function(index,item){
 //     item.textContent= `${index} - hello`;
 // });
+//Traversing the Dom
+// let val;
 
+// let list = document.querySelector('.list-group');
+
+// val =list;
+
+// val = list.childNodes;
+// val = list.childNodes[0];
+// val = list.childNodes[0].nodeName;
+// val = list.childNodes[0].nodeType;//text
+// val =list.childNodes[0].nodeType;// element
+
+// val = list.children;
+// val = list.children[0];
+// val = list.children[2];
+
+// val = list.children[2].textContent='new item';
+// val = list.children[3].children;// 3 cunun icindeki elemente catiriq
+
+// val = list.firstChild;//ilk text gelir
+// val = list.firstElementChild;// ilk element
+
+// val = list.lastChild;
+// val = list.lastElementChild;
+
+// val = list.childElementCount;
+// val = list.parentNode;
+// val = list.parentElement;
+
+// console.log(val);
