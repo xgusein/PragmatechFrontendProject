@@ -613,28 +613,84 @@
 
 // }
 //Window object
-let val;
-var a = 10;
-function abc(){
-    return 0;
-};
-val = window;
-//alert
-alert('salam');
-var b = prompt('ad yaz');//dəyər tələb  edir
-console.log(b);
-var confirm = confirm('razisiz?');//  true olsa okey sec false ise no
-console.log(confirm);
-//scroll
-val = window.scrollX
-val = window.scrollY
-//location
-val = window.location;
-val = window.location.href;
-val = window.location.hostname;
-val = window.location.host;
-val = window.location.protocol;
-val = window.location.search;
-val = window.location.href='http://Huseynibadzade.com';//yeni sehife
-window.location.reload();//refresh edir her saniye
-window.navigator//brauzerin haqqinda extra bilgi
+// let val;
+// var a = 10;
+// function abc(){
+//     return 0;
+// };
+// val = window;
+// //alert
+// alert('salam');
+// var b = prompt('ad yaz');//dəyər tələb  edir
+// console.log(b);
+// var confirm = confirm('razisiz?');//  true olsa okey sec false ise no
+// console.log(confirm);
+// //scroll
+// val = window.scrollX
+// val = window.scrollY
+// //location
+// val = window.location;
+// val = window.location.href;
+// val = window.location.hostname;
+// val = window.location.host;
+// val = window.location.protocol;
+// val = window.location.search;
+// val = window.location.href='http://Huseynibadzade.com';//yeni sehife
+// window.location.reload();//refresh edir her saniye
+// window.navigator//brauzerin haqqinda extra bilgi
+//Dom tanisliq
+// let val;
+// val = window.document;
+// val = document.all;
+// val = document.all.length;
+// val = document.all.[10];
+// val = document.head;
+// val = document.body;
+// val = document.anchors;
+// val = document.URL;
+// val = document.domain;
+// val = document.images;
+// val = document.title;
+// val = document.forms;
+// val = document.forms[0];
+// val = document.forms[0].id;
+// val = document.forms[0].method;
+// val = document.forms[0].action;
+// val = document.scripts;
+
+// console.log(val);
+//element secmek
+//Tekli element secimi.
+// let val;
+// val = document.getElementById('div');
+// val = document.getElementById('div').id;
+// val = document.getElementById('div').className;
+// //ya da
+// val = document.getElementById('div');
+// val = val.id;
+// val = val.className;
+// console.log(val);
+// document.querySelector('.li').style.color='red';
+// document.querySelector('li:last-child').style.color='blue';
+// document.querySelector('li:nth-child(2)').style.color='yellow';
+// document.querySelector('li:nth-child(3)').textContent='task item'// yazi yazir
+// // coxlu etiket secmek
+// let val;
+// val = document.getElementsByClassName('list-group-item'); //icindeki  utun elementler secilir
+// val = document.getElementsByClassName('list-group-item')[0];// 0 ci element secilir.
+// // yada
+// val = val[2];
+// val[1].style.color='blue';
+// val[1].style.fontSize='25px';
+// val[1].textContent='new item';
+// // document.getElementsByTagName()
+// val = document.getElementsByTagName('li');
+// val = document.getElementsById('task-list');
+// val = document.getElementsByTagName('a');
+
+// //document.querySelectorAll()
+// val = document.querySelectorAll('li');
+// val.forEach(function(index,item){
+//     item.textContent= `${index} - hello`;
+// });
+
