@@ -728,18 +728,58 @@
 //Creating elements
 
 //create element
-const li = document.createElement('li');
-//add class
-li.className='name';
-li.id='div';
-//attribute
-li.setAttribute('title','new item');
-li.setAttribute('data-id','5');
-//text node
-const text = document.createTextNode('new item');
-li.appendChild(text);
-// append a to li
-li.appendChild(a);
-//append li to ul
-document.querySelector('.name').appendChild(li);
- 
+// const li = document.createElement('li');
+// //add class
+// li.className='name';
+// li.id='div';
+// //attribute
+// li.setAttribute('title','new item');
+// li.setAttribute('data-id','5');
+// //text node
+// const text = document.createTextNode('new item');
+// li.appendChild(text);
+// // append a to li
+// li.appendChild(a);
+// //append li to ul
+// document.querySelector('.name').appendChild(li);
+
+//remove & update element
+// const tasklist = document.querySelector('#task-list');
+// //removing element
+// // tasklist.remove();
+// tasklist.childNodes[7].remove();
+// tasklist.children[0].remove();
+// tasklist.removeChild(tasklist.children[3]);
+
+// //removing attribute
+// tasklist.children[0].removeAttribute('class');
+// for(let i=0;i<tasklist.children.length;i++){
+//     tasklist.children[i].removeAttribute('class');
+// };
+// //replacing Elements
+// const h2= document.createElement('h2');
+// h2.setAttribute('class','card-header');
+// h2.appendChild(document.createTextNode('My List'));
+
+// const parent = document.querySelector('.card');
+// parent.replaceChild(h2,cardHeader);
+
+//**Classes */
+
+// let val;
+// link = tasklist.children[0].children[0];
+// val = link.className;
+// val = link.classList;
+// val = link.classList[0];
+// val = link.classList[1];
+// link.classList.add('new');
+// link.classList.remove('new');
+// val = link.hasAttribute('data-val');
+
+// console.log(val);
+
+
+
+
+
+console.log(tasklist)
