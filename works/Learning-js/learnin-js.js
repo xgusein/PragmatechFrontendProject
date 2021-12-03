@@ -856,3 +856,14 @@
 //     console.log('key code'+e.keyCode);
 //     e.preventDefault();
 // };
+
+//Event Bubbling
+// form.addEventListener('click',function(e){
+//     console.log('form');
+//     e.stopPropagation();
+// })
+
+//Event Capturing
+form.addEventListener('click',function(e){
+    console.log('form');
+    e.stopPropagation();},true);
