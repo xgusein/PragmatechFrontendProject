@@ -864,6 +864,30 @@
 // })
 
 //Event Capturing
-form.addEventListener('click',function(e){
-    console.log('form');
-    e.stopPropagation();},true);
+// form.addEventListener('click',function(e){
+//     console.log('form');
+//     e.stopPropagation();},true);
+
+//Local & Session Storage
+//Local
+let val;
+//Set item
+const fristname = localStorage.setItem('firstName','Sadik');
+const lastName = localStorage.setItem('lastName','Turan');
+//get item
+val = localStorage.getItem('FirstName');
+
+//remove item
+val = localStorage.removeItem('FirstName');
+//clear
+localStorage.clear();
+//set array to storage
+localStorage.setItem('hobbies',JSON.stringify (hobbies));
+val = JSON.parse(localStorage.getItem('hobbies')); 
+
+console.log(localStorage);
+
+//Session Storage
+const city = sessionStorage.setItem('city','Kocaeli');
+const country = sessionStorage.setItem('Country','Turkiye');
+console.log(sessionStorage);
