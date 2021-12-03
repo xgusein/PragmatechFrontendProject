@@ -724,3 +724,22 @@
 // val = list.parentElement;
 
 // console.log(val);
+
+//Creating elements
+
+//create element
+const li = document.createElement('li');
+//add class
+li.className='name';
+li.id='div';
+//attribute
+li.setAttribute('title','new item');
+li.setAttribute('data-id','5');
+//text node
+const text = document.createTextNode('new item');
+li.appendChild(text);
+// append a to li
+li.appendChild(a);
+//append li to ul
+document.querySelector('.name').appendChild(li);
+ 
