@@ -778,8 +778,81 @@
 
 // console.log(val);
 
+// console.log(tasklist);
+// // use Event Listeners
+
+// const btn = document.querySelector('#btnDeleteAll');
+// btn.addEventListener('click',function(e){
+//     let val;
+//     val = e;
+
+//     val = e.target;
+//     val = e.target.id;
+//     val = e.target.classList;
+//     val = e.target.type;
+//     console.log(val);
+//     e.preventDefault();// a olanda linki deyismir
+// });
+// // ya da
+// btn.addEventListener('click',btnClicked);
+// function btnClicked(){
+//     console.log('btn-clicked');
+// };
+
+//Mouse events
+// const btn = document.querySelector('#btnDeleteAll');
+// const ul = document.querySelector('#taskList');
+// //click
+// btn.addEventListener('click', eventHandler);
+// ul.addEventListener('click',eventHandler);
+// //doubleclick iki defe clickde isleyir
+// btn.addEventListener('dblclick',eventHandler);
+// //mouse down
+// btn.addEventListener('mousedown',eventHandler);
+// //mouse up
+// btn.addEventListener('mouseup',eventHandler);
+// //mouse enter uzerlerine getirdikde avtomatik isleyir
+// ul.addEventListener('mouseenter',eventHandler);
+
+// //mouseleave
+// ul.addEventListener('mouseleave',eventHandler);
+
+// //mouseover  f'rq i,erideki basqa elementde out eder amma leave etmez
+// ul.addEventListener('mouseover',eventHandler);
 
 
+// //mouseout
+// ul.addEventListener('mouseout',eventHandler);
+
+// //mouse move kordinatin gosterer
+// const h5=document.querySelector('h5');
+// ul.addEventListener('mousemove',eventHandler);
+
+// function eventHandler(event){
+//     console.log(`event type : ${event.type}`);
+//     h5.textContent=`Mouse X : ${event.offseX}
+//     Mouse Y ${event.offseY}`;
+// };
 
 
-console.log(tasklist)
+// function eventHandler(event){
+//     console.log(`event type : ${event.type}`);
+// };
+
+//keyboard events
+// const input = document.querySelector('#txtTaskName');
+// const form = document.querySelector('form');
+// input.addEventListener('keydown',eventHandler);
+// input.addEventListener('keyup',eventHandler);
+// input.addEventListener('keypress',eventHandler);
+// input.addEventListener('focus',eventHandler);
+// input.addEventListener('blur',eventHandler);
+// input.addEventListener('paste',eventHandler);
+// input.addEventListener('cut',eventHandler);
+// form.addEventListener('submit',eventHandler);// infarmasiyalari adrese gonderir
+// input.addEventListener('select',eventHandler);// goyerdende aktiflesir
+// function enentHandler(e){
+//     console.log('event type '+e.type);
+//     console.log('key code'+e.keyCode);
+//     e.preventDefault();
+// };
