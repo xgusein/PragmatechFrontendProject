@@ -2,6 +2,10 @@ const form = document.querySelector('form');
 const input = document.querySelector('#txtTaskName');
 const btnDeleteAll = document.querySelector('#btnDeleteAll');
 const taskList = document.querySelector('#task-list');
+let items ;
+
+//load items
+loadItems();
 
 //call event listeners
 eventListeners();
@@ -15,27 +19,64 @@ function eventListeners(){
     btnDeleteAll.addEventListener('click',deleteAllItems);
         
 };
+
+function loadItems(){
+    items = getItemsFromLS();
+
+    items.forEach(function(item){
+        createItem(item);
+    })
+}
+
+// get items from local storage
+function getItemsFromLS(){
+    if(localStorage.getItem('items')===null){
+        items = [];
+    }else{
+        items = JSON.parse(localStorage.getItem(('items')))
+    }
+    return items;
+}
+
+//  set item to Local Storage
+function setItemToLS(text){
+    items = getItemsFromLS();
+    items.push(text);
+    localStorage.setItem('items',JSON.stringify(items));
+}
+
+
+function createItem(text){
+     //create li
+     const li = document.createElement('li');
+     li.className = 'list-group-item list-group-item-secondary';
+     li.appendChild(document.createTextNode(text));
+     //create a
+     const a =document.querySelector('a');
+     a.classList ='delete-item float-right';
+     a.setAttribute('href','#');
+     a.innerHTML='<i class="fas fa-times"></i>';
+ 
+     //add a to li
+     li.appendChild(a);
+ 
+     //li to ul
+     taskList.appendChild(li);
+ 
+}
+
+
 //add new item
 function addNewItem(e){
 
     if(input.value ===''){
         alert('Add new item');
     }
-    //create li
-    const li = document.createElement('li');
-    li.className = 'list-group-item list-group-item-secondary';
-    li.appendChild(document.createTextNode(input.value));
-    //create a
-    const a =document.querySelector('a');
-    a.classList ='delete-item float-right';
-    a.setAttribute('href','#');
-    a.innerHTML='<i class="fas fa-times"></i>';
+    // create item 
+    createItem(input.value);    
 
-    //add a to li
-    li.appendChild(a);
-
-    //li to ul
-    taskList.appendChild(li);
+    //save to LS
+    setItemToLS(input.value);
 
     //clear input
     input.value='';
@@ -43,6 +84,8 @@ function addNewItem(e){
 
     e.preventDefault();
 };
+
+
 
 // delete an item
 function deleteItem(e){
@@ -55,7 +98,7 @@ function deleteItem(e){
 };
 
 // delete alla btn
-function deleteAllItems(e){
+function deleteAllItems(e){ 
    if(confirm('are you sure ?')){
     taskList.innerHTML='';
     e.preventDefault();
