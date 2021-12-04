@@ -9,10 +9,15 @@ eventListeners();
 function eventListeners(){
     //submit event listener
         form.addEventListener('submit',addNewItem);
+    //delete an item
+    taskList.addEventListener('click',deleteItem);
+    //delete AllItems
+    btnDeleteAll.addEventListener('click',deleteAllItems);
         
 };
 //add new item
 function addNewItem(e){
+
     if(input.value ===''){
         alert('Add new item');
     }
@@ -37,4 +42,22 @@ function addNewItem(e){
 
 
     e.preventDefault();
-}
+};
+
+// delete an item
+function deleteItem(e){
+    if(e.target.className==="fas fa-times"){
+        e.target.parentElement.parentElement.remove();
+
+    };
+    e.preventDefault();
+
+};
+
+// delete alla btn
+function deleteAllItems(e){
+   if(confirm('are you sure ?')){
+    taskList.innerHTML='';
+    e.preventDefault();
+   };
+};
