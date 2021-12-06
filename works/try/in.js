@@ -1,2 +1,1 @@
-    isNaN('Salam') //true
-    isNaN('5') //false
+a.innerHTML='<i class="fas fa-times"></i>';

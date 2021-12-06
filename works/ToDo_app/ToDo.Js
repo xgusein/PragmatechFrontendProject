@@ -2,7 +2,7 @@ const form = document.querySelector('form');
 const input = document.querySelector('#txtTaskName');
 const btnDeleteAll = document.querySelector('#btnDeleteAll');
 const taskList = document.querySelector('#task-list');
-let items ;
+let items;
 
 //load items
 loadItems();
@@ -10,76 +10,76 @@ loadItems();
 //call event listeners
 eventListeners();
 
-function eventListeners(){
+function eventListeners() {
     //submit event listener
-        form.addEventListener('submit',addNewItem);
+    form.addEventListener('submit', addNewItem);
     //delete an item
-    taskList.addEventListener('click',deleteItem);
+    taskList.addEventListener('click', deleteItem);
     //delete AllItems
-    btnDeleteAll.addEventListener('click',deleteAllItems);
-        
+    btnDeleteAll.addEventListener('click', deleteAllItems);
+
 };
 
-function loadItems(){
+function loadItems() {
     items = getItemsFromLS();
 
-    items.forEach(function(item){
+    items.forEach(function (item) {
         createItem(item);
     })
 }
 
 // get items from local storage
-function getItemsFromLS(){
-    if(localStorage.getItem('items')===null){
+function getItemsFromLS() {
+    if (localStorage.getItem('items') === null) {
         items = [];
-    }else{
+    } else {
         items = JSON.parse(localStorage.getItem(('items')))
     }
     return items;
 }
 
 //  set item to Local Storage
-function setItemToLS(text){
+function setItemToLS(text) {
     items = getItemsFromLS();
     items.push(text);
-    localStorage.setItem('items',JSON.stringify(items));
+    localStorage.setItem('items', JSON.stringify(items));
 }
 
 
-function createItem(text){
-     //create li
-     const li = document.createElement('li');
-     li.className = 'list-group-item list-group-item-secondary';
-     li.appendChild(document.createTextNode(text));
-     //create a
-     const a =document.querySelector('a');
-     a.classList ='delete-item float-right';
-     a.setAttribute('href','#');
-     a.innerHTML='<i class="fas fa-times"></i>';
- 
-     //add a to li
-     li.appendChild(a);
- 
-     //li to ul
-     taskList.appendChild(li);
- 
+function createItem(text) {
+    //create li
+    const li = document.createElement('li');
+    li.className = 'list-group-item list-group-item-secondary';
+    li.appendChild(document.createTextNode(text));
+    //create a
+    const a = document.querySelector('a');
+    a.classList = 'delete-item float-right';
+    a.setAttribute('href', '#');
+    a.innerHTML = '<i class="fas fa-times"></i>';
+
+    //add a to li
+    li.appendChild(a);
+
+    //li to ul
+    taskList.appendChild(li);
+
 }
 
 
 //add new item
-function addNewItem(e){
+function addNewItem(e) {
 
-    if(input.value ===''){
+    if (input.value === '') {
         alert('Add new item');
     }
     // create item 
-    createItem(input.value);    
+    createItem(input.value);
 
     //save to LS
     setItemToLS(input.value);
 
     //clear input
-    input.value='';
+    input.value = '';
 
 
     e.preventDefault();
@@ -88,8 +88,8 @@ function addNewItem(e){
 
 
 // delete an item
-function deleteItem(e){
-    if(e.target.className==="fas fa-times"){
+function deleteItem(e) {
+    if (e.target.className === "fas fa-times") {
         e.target.parentElement.parentElement.remove();
 
     };
@@ -98,9 +98,9 @@ function deleteItem(e){
 };
 
 // delete alla btn
-function deleteAllItems(e){ 
-   if(confirm('are you sure ?')){
-    taskList.innerHTML='';
-    e.preventDefault();
-   };
+function deleteAllItems(e) {
+    if (confirm('are you sure ?')) {
+        taskList.innerHTML = '';
+        e.preventDefault();
+    };
 };
