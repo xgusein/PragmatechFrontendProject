@@ -15,6 +15,35 @@ body {
     background-color: #fff;
     font-family: 'lato', sans-serif;
 }
+
+@media (min-width: 576px) {
+    
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .container {
+        max-width: 1140px;
+    }
+}
+
 .text-transform {
     text-transform: uppercase;
 }
@@ -226,4 +255,71 @@ header h2 {
     left: 5rem;
     padding: .5rem;
     background-color: #0AAA9D;
+}
+
+.text {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: -7rem;
+}
+
+.col-12 .btn {
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: .4rem;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+.col-12 .btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+#contact {
+    width: 70%;
+    margin: 0% auto;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    border-bottom: .3rem solid #e9ecef;
+    padding-bottom: 1rem;
+    margin-bottom: 4rem;
+}
+
+#contact h1 {
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-weight: 700;
+    color: #2B3C52;
+    font-size: 4.5rem;
+}
+.form-group input {
+    border: none;
+    width: 100%;
+    display: inline-block;
+}
+
+.form-group input:focus {
+    outline: none;
+}
+.form-group #message {
+    width: 100%;
+}
+
+.form-group #message:focus{
+    outline: none;
+    border: none;
+}
+.form-group input, #message {
+    font-size: 2.4rem;
 }
