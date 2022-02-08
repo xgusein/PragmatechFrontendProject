@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    background-image: linear-gradient(to right,#60B7E2,#9A0FE8);
+}
+footer {
+    background-image: linear-gradient(to right,#60B7E2,#9A0FE8);
+}
+
+#layer {
+    margin-top: 5rem;
+    background-color: #fff;
+    width: 60rem;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+}
+
+#contact {
+    font-weight: 700;
+    background: linear-gradient(to right,#60B7E2,#9A0FE8);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#first {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    padding: 2rem;
+}
+
+.box h3 {
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon i {
+    border-radius: 50%;
+    padding: 2rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #60B7E2;
+}
+
+.icon i:hover{
+    color: #9A0FE8;
+}
+
+/* ------------------------ */
+.form-group input {
+    border: none;
+    width: 5rem;
+    display: inline-block;
+}
+
+.form-group input:focus {
+    outline: none;
+}
+.form-group #message {
+    width: 8rem;
+    height: 4rem;
+}
+
+.form-group #message:focus{
+    outline: none;
+    border: none;
+}
+.form-group input, #message {
+    font-size: 2rem;
+}
