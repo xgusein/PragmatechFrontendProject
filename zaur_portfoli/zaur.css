@@ -13,10 +13,13 @@ footer {
 }
 
 #layer {
+    width: 74rem;
     margin-top: 5rem;
     background-color: #fff;
     width: 60rem;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+    /* background-image: url(/photo/image.jpg); */
+    object-fit: cover;
 }
 
 #contact {
@@ -29,24 +32,20 @@ footer {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
-
-#first {
-    display: flex;
-    justify-content: center;
+.box{
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+}
+#mail {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #9A0FE8;
 }
 
-.box {
-    padding: 2rem;
+.box p {
+    font-size: medium;
 }
 
-.box h3 {
-    padding-bottom: 1.5rem;
-    text-align: center;
-}
-
-#contact-form {
-    display: flex;
-}
 .icon {
     display: flex;
     justify-content: center;
@@ -60,29 +59,80 @@ footer {
     color: #60B7E2;
 }
 
+#fr{
+    color: #4064AC;
+}
+
+#fr:hover{
+    color: #9A0FE8;
+}
+
+#sc {
+    color: #2464AD;
+}
+
+#sc:hover{
+    color: #9A0FE8;
+}
+
+.th {
+    color: #1C9CEA;
+}
 .icon i:hover{
     color: #9A0FE8;
 }
 
-/* ------------------------ */
-.form-group input {
-    border: none;
-    width: 5rem;
-    display: inline-block;
+#center {
+    display: flex;
+    justify-content: center;
 }
 
-.form-group input:focus {
-    outline: none;
-}
-.form-group #message {
+.send {
+    font-size: medium;
+    height: 3rem;
     width: 8rem;
-    height: 4rem;
+    border: none;
 }
 
-.form-group #message:focus{
+.send:hover {
+    border: 1px solid #6A9DE3;
+}
+
+#name {
+    width: 40%;
+    margin: 1rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    align-items: flex-start;
+    border: none;
+    border-bottom: 1px solid #9A0FE8;
+}
+
+#name:focus{
     outline: none;
     border: none;
 }
-.form-group input, #message {
-    font-size: 2rem;
+
+#message {
+    width: 100%;
+    border: none;
+}
+
+#message:focus{
+    outline: none;
+    border: none;
+}
+.large {
+    width: 88%;
+    margin: 1rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    align-items: flex-start;
+    border: none;
+    border-bottom: 1px solid #9A0FE8;
+}
+
+.large:focus{
+    outline: none;
+    border: none;
 }
