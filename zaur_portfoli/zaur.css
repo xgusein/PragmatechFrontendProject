@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body {
+    background-image: linear-gradient(to right,#60B7E2,#9A0FE8);
+}
 html {
     font-size: 10px;
     background-image: linear-gradient(to right,#60B7E2,#9A0FE8);
@@ -135,4 +137,31 @@ footer {
 .large:focus{
     outline: none;
     border: none;
+}
+
+/* blogs */
+
+#blogs {
+    background-image: linear-gradient(to right,#60B7E2,#9A0FE8);
+}
+
+.blog {
+    
+    height: 30rem;
+}
+
+.ima {
+    width: 100%;
+    object-fit: cover;
+    height: 30rem;
+}
+/* .ss {
+    width: 100%;
+} */
+#padding {
+    padding: 0%;
+    width: 31%;
+    background-color: #fff;
+    margin:1rem;
+    height: 50rem;
 }
