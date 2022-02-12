@@ -3,13 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     background-image: linear-gradient(to right,#60B7E2,#9A0FE8);
 }
+
 html {
     font-size: 10px;
     background-image: linear-gradient(to right,#60B7E2,#9A0FE8);
 }
+
 footer {
     background-image: linear-gradient(to right,#60B7E2,#9A0FE8);
 }
@@ -34,10 +37,12 @@ footer {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
+
 .box{
     padding-left: 4rem;
     padding-bottom: 1rem;
 }
+
 #mail {
     padding-bottom: 1rem;
     font-size: 2rem;
@@ -80,6 +85,7 @@ footer {
 .th {
     color: #1C9CEA;
 }
+
 .icon i:hover{
     color: #9A0FE8;
 }
@@ -124,6 +130,7 @@ footer {
     outline: none;
     border: none;
 }
+
 .large {
     width: 88%;
     margin: 1rem;
@@ -155,13 +162,12 @@ footer {
     object-fit: cover;
     height: 30rem;
 }
-/* .ss {
-    width: 100%;
-} */
+
 #padding {
     padding: 0%;
     width: 31%;
     background-color: #fff;
     margin:1rem;
     height: 50rem;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);;
 }
