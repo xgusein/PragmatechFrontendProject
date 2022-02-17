@@ -252,3 +252,109 @@ footer {
     border: none;
     background:linear-gradient(to right,#60B7E2,#9A0FE8) ;
 }
+
+/* resume */
+
+#resume {
+    padding-bottom: 5rem;
+}
+
+.element {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+}
+
+.fir {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    /* color: white; */
+}
+
+.p-fir {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.p-last {
+    color: gray;
+    font-size: medium;
+}
+
+.last {
+    /* color: gray; */
+}
+
+.l-p {
+    color: gray;
+    font-size: medium;
+}
+
+.l {
+    /* color: gray; */
+}
+
+.f {
+    border-top: 4px solid #951EE7;
+}
+
+.s {
+    border-top: 4px solid #4064AC;
+    margin-top: 2rem;
+}
+
+.t {
+    border-top: 4px solid #6A9DE3;
+}
+
+.lin {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 33%;
+}
+
+.c-1 {
+    border: 1px solid #951EE7;
+    background-color: #951EE7;
+}
+
+.c-2 {
+    border: 1px solid #4064AC;
+    background-color: #4064AC;
+}
+
+.c-3 {
+    border: 1px solid #60B7E2;
+    background-color: #60B7E2;
+}
+
+/*projects*/
+
+/* .project {
+    height: 50px;
+    object-fit: cover;
+} */
+
+/* #projects1 {
+    height: 20rem;
+} */
+
+.project2 {
+    padding: 2rem;
+    margin-left: 2rem;
+}
+.rig {
+    width: 100%;
+    margin-right: 15rem;
+}
+
+.lef{
+    margin-left: 13rem;
+    width: 100%;
+}
+.project2 img {
+    
+    object-fit: cover;
+    width: 80%;
+    height: 50rem;
+}
