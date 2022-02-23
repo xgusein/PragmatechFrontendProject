@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Permanent+Marker&family=Roboto+Serif:ital,wght@1,100;1,200&family=Roboto:ital,wght@1,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -192,6 +194,11 @@ footer {
     transform: translate(-50%);
 }
 
+#padding {
+    font-family:'Roboto', Thin 100 italic;/* herif fontu ucun arastir*/
+
+}
+
 #padding:hover .hover {
     opacity: 0.7;
 }
@@ -242,7 +249,7 @@ footer {
     background-color: #fff;
     margin:1rem;
     height: 50rem;
-    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
     transition: 0.5s;
 }
 
@@ -328,7 +335,7 @@ footer {
     background-color: #60B7E2;
 }
 
-/*projects*/
+/* projects*/
 
 /* .project {
     height: 50px;
@@ -357,4 +364,20 @@ footer {
     object-fit: cover;
     width: 80%;
     height: 50rem;
+    box-shadow:-30px 30px 20px rgba(0,0,0,0.3);
+}
+
+#pos {
+    object-fit: cover;
+    width: 80%;
+    box-shadow:-30px 30px 20px rgba(0,0,0,0.3);
+}
+
+#pro {
+    position: relative;
+    /* box-shadow:-30px 30px 20px rgba(0,0,0,0.3); */
+}
+
+#pos    :hover .hover {
+    opacity: 0.7;
 }

@@ -444,6 +444,11 @@ td {
     margin: 0.4%;
 }
 
+.icons i:hover {
+
+    background-color: #ff305b;
+}
+
 .ss5 {
     text-align: center;
     color: #878787;
@@ -452,6 +457,10 @@ td {
 .ssa {
     text-decoration: none;
     color: #ff305b;
+}
+
+.ssa:hover {
+    color: green;
 }
 
 .e-1 {
@@ -505,7 +514,8 @@ td {
     width: 100%;
     height: 30px;
     color: white;
-    background-color: #ff305b;
+    /* background-color: #ff305b; */
+    background-color: black;
     padding: 2%;
 }
 
@@ -525,10 +535,17 @@ td {
 }
 
 .BOX {
+    border: 5px solid gray;
     display: flex;
-    height: 150px;
+    height: 200px;
     width: 600px;
     margin-bottom: 5%;
+    box-shadow: -20px 10px 20px rgba(0,0,0,0.3);
+    transition: 0.5s;
+}
+
+.BOX:hover {
+    margin-right: 50px;
 }
 
 .year {
