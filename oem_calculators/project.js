@@ -1,38 +1,49 @@
 // Storage Controller
 
-const StorageControler = (function(){
+const StorageControler = (function () {
 
 
-    
+
 })();
 
 // Product Controller
 
-const ProductControler = (function(){
+const ProductControler = (function () {
     //private
-    const Product = function(id,name,price){
+    const Product = function (id, name, price) {
         this.id = id;
         this.name = name;
-        this.price = price; 
+        this.price = price;
     }
 
     const data = {
-        products : [
-            {id:0, name: 'Monitor', price: 100},
-            {id:0, name: 'Ram', price: 30},
-            {id:0, name: 'Klavye', price: 10},
+        products: [{
+                id: 0,
+                name: 'Monitor',
+                price: 100
+            },
+            {
+                id: 0,
+                name: 'Ram',
+                price: 30
+            },
+            {
+                id: 0,
+                name: 'Klavye',
+                price: 10
+            },
         ],
-        selectedProduct:null,
+        selectedProduct: null,
         totalPrice:0
     };
 
     //Public
 
     return {
-        getProducts: function(){
+        getProducts: function () {
             return data.products;
         },
-        getData: function(){
+        getData: function () {
             return data;
         }
     }
@@ -40,24 +51,51 @@ const ProductControler = (function(){
 
 // UI Controller
 
-const UIController = (function(){
+const UIController = (function () {
+
+    const Selectors = {
+        productsList : "#item-list"
+    }
 
 
-    
+    return {
+        createProductList: function (products) {
+            let html = '';
+            products.forEach(prd => {
+                html += `
+                <tr>
+                  <td>${prd.id}</td>
+                  <td>${prd.name}</td>
+                  <td>${prd.price}</td>
+                  <td class="text-right">
+                      <button class="btn btn-warning btn-sm" type="submit">
+                          <i class="far fa-edit"></i>
+                      </button>
+                  </td>
+                </tr>`
+
+            });
+            document.querySelector(Selectors.productsList).innerHTML = html;
+        },
+        getSelectors : function(){
+            return Selectors;
+        }
+    }
+
 })();
 
 // App controler 
 
-const App = (function(ProductCtrl,UICtrl){
+const App = (function (ProductCtrl, UICtrl) {
 
     return {
-        init: function(){
+        init: function () {
             console.log('starting app...');
             const products = ProductCtrl.getProducts();
             UICtrl.createProductList(products);
         }
     }
-    
-})(ProductControler,UIController);
+
+})(ProductControler, UIController);
 
 App.init();
