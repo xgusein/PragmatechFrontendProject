@@ -124,7 +124,8 @@ const App = (function (ProductCtrl, UICtrl) {
     const loadEventListeners = function(){
 
         //add product event
-        document.querySelector(UISelectors.addButton).addEventListener('click', productAddSubmit);
+        document.querySelector(UISelectors.addButton).addEventListener('click',
+        productAddSubmit);
         
     }
 
