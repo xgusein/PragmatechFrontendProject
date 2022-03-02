@@ -1,1 +1,0 @@
-a.innerHTML='<i class="fas fa-times"></i>';
