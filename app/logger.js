@@ -1,1 +1,0 @@
-var url = "http://logger.io/logger"
