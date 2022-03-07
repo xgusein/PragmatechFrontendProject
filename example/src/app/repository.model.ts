@@ -14,7 +14,7 @@ export class ProductRepository {
         return this.products;
     }
 
-    getProductsById(id: number): Product | undefined {
+    getProductById(id: number): Product | undefined {
         return this.products.find(p => p.id == id);
     }
 }
