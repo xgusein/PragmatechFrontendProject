@@ -3,7 +3,7 @@ import { Product } from "./product.model";
 export class SimpleDataSource {
     private products: Product[];
 
-    constructor( ){ 
+    constructor(){ 
         this.products = new Array<Product>(
             new Product(1, "Samsung S5","iyi telefon","1.jpg",1000),
             new Product(2, "Samsung S6","iyi telefon","2.jpg",2000),
