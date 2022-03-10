@@ -321,7 +321,7 @@ footer {
     width: 33%;
 }
 
-.c-1 {
+.s-1 {
     border: 1px solid #951EE7;
     background-color: #951EE7;
 }
@@ -358,6 +358,9 @@ footer {
     height: 320px;
     margin: 15px;
     overflow: hidden;
+    box-shadow: -15px 15px 15px rgba(0,0,0,0.3);
+    /* border: none; */
+    border-radius: 30px;
 }
 
 .container .card .imgBx,
@@ -420,6 +423,21 @@ footer {
     transition-delay: 0.5s;
 }
 
+.container .card .contentBx .content a {
+    font-size: 15px;
+    
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #127D8E;
+    color: white;
+    padding: 3%;
+
+}
+
+.container .card .contentBx .content a:hover {
+    background-color: #7F5FE5;
+}
+
 .container .card .contentBx .content h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.3em;
@@ -430,8 +448,16 @@ footer {
 .container .card .contentBx .content p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-size: 1.5em;
+    margin-bottom: 20px;
     line-height: 1.4em;
     font-weight: 300;
+}
+
+.decor {
+    border: 1px solid #60B7E2;
+    background-color: #60B7E2;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 /* #project1 {
