@@ -1,0 +1,11 @@
+<div class="bg-primary text-white m-2 p-2">
+    There are {{ model.getProducts().length }} product in the repository
+</div>
+
+<div [class]="getClasses(1)" >
+    kataloqdaki ilk urun {{model.getProductById(1).name }}
+</div>
+
+<div [class]="getClasses(2)" >
+    kataloqdaki ikinci urun {{model.getProductById(2).name }}
+</div>
