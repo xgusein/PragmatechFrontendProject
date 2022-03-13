@@ -9,7 +9,7 @@
 
 body {
     background-image: linear-gradient(to right, #60B7E2, #9A0FE8);
-    /* cursor: none; */
+    cursor: none;
     position: relative;
     min-height: 100vh;
 }
@@ -63,7 +63,7 @@ html {
 }
 
 .menu {
-    background: #171717;
+    background: #9913E8;
     display: flex;
     align-items: center;
     position: fixed;
@@ -89,6 +89,13 @@ html {
     list-style-type: none;
 }
 
+.or {
+    margin: 400px;
+    height: 90%;
+    background-color: #127D8E;
+    width: 2px;
+}
+
 .menu__list:not(:last-child) {
     margin-bottom: 30px;
 }
@@ -101,6 +108,10 @@ html {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.menu__link:hover {
+    color: #6A9DE3;
 }
 
 .menu__link:after {
@@ -616,6 +627,7 @@ footer {
 }
 
 .cursor {
+    z-index: 2;
     width: 20px;
     height: 20px;
     border: 1px solid black;
