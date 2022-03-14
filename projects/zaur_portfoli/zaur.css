@@ -31,6 +31,7 @@ body {
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth .100s;
 }
 
 /*header*/
@@ -41,6 +42,7 @@ header {
      color: #ccc;
     overflow:hidden;
     object-fit: cover;
+    background-attachment: fixed;
 }
 
 .container {
@@ -51,6 +53,22 @@ header {
     padding: 0 3rem;
   }
   
+#particles-js .a{
+    width: 100%;
+    background-color: purple;
+    height: 45px;
+    margin-left: -107px;
+    margin-top: 680px;
+    position: absolute;
+}
+
+.a a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 750px;
+}
+
   h1, h2 {
     font-weight: 200;
     margin: 0.4rem;
@@ -253,6 +271,12 @@ header {
 
 .menu__link:hover:after {
     width: 100%;
+}
+
+/*main*/
+
+main {
+    margin-top: 50px;
 }
 
 /*About us*/
