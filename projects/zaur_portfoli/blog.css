@@ -31,8 +31,6 @@ html {
     font-size: 10px;
 }
 
-
-
 /*navbar*/
 
 .btn {
@@ -188,6 +186,32 @@ html {
     width: 100%;
 }
 
+/*header*/
+
+header {
+    font-family: 'Raleway', sans-serif;
+     height: 80vh;
+    background: #333 url(/projects/zaur_portfoli/photo/design-ge56760357_1920.jpg) no-repeat center center / cover;
+    overflow:hidden;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+header h1 {
+    color: rgb(99, 91, 91);
+    font-weight: 900;
+    margin-left: 720px;
+    margin-top: -100px;
+}
+
+header p {
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    font-weight: 700;
+    left: 705px;
+    color: #000;
+}
 
 /*main*/
 
