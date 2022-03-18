@@ -222,7 +222,7 @@ header {
     object-fit: cover;
 }
 
-.info {
+.info1 {
     margin-left: 150px;
 }
 .inf {
@@ -274,6 +274,7 @@ header {
 .menu__link:hover:after {
     width: 100%;
 }
+
 
 /*main*/
 
@@ -674,7 +675,7 @@ footer {
 
 .info {
     grid-area: info;
-    margin-left: 0px;
+    /* margin-left: 0px; */
 }
 
 .map {
