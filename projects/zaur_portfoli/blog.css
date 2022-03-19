@@ -305,6 +305,7 @@ main {
 .recent_posts {
     position: absolute;
     width: 20%;
+    top: 800px;
     left: 1100px;
     background-color: #fff;
     padding: 20px;
