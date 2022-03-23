@@ -187,12 +187,6 @@ html {
 }
 
 
-
-
-
-
-
-
 /*Cursor*/
 
 .cursor {
@@ -260,4 +254,90 @@ html {
 .expand {
     animation: cursorAnim3 .5s forwards;
     border: 1px solid red;
+}
+
+
+.recent_posts {
+    border-top: 8px solid #e04869;
+    border-radius: 4px;
+    box-shadow:  .10rem .10rem 6rem 6px rgba(0,0,0,.05);
+    position: absolute;
+    width: 20%;
+    top: 200px;
+    left: 1100px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.recent_posts h2 {
+    color: black;
+}
+
+.recent_info {
+    margin-top: 20px;
+    display: flex;
+}
+
+.recent_info img {
+    object-fit: cover;
+    width: 28%;
+    border-radius: 2px;
+}
+
+.recent {
+    margin-left: 18px;
+}
+
+.recent a {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.recent a:hover {
+    color: blueviolet;
+    transition: .5s;
+}
+
+
+.tags {
+    border-top: 8px solid #e04869;
+    border-radius: 4px;
+    width: 20%;
+    left: 1100px;
+    top: 650px;
+    padding: 5px;
+    position: absolute;
+    background: #fff;
+}
+
+.tags h1 {
+    padding: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.buttons a {
+    text-align: center;
+    border: 1px solid black;
+    background-color: none;
+    /* padding: 5px; */
+    font-size: 20px;
+    font-weight: 500;
+    width: 75px;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+}
+
+.buttons a:hover {
+    background-color: #E73C7E;
+    color: white;
+    transition: .5s;
 }
