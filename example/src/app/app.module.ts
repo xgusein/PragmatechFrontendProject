@@ -9,10 +9,12 @@ import { UsersComponent } from './users/users.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { from } from 'rxjs';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { ProductComponent } from './products/product/product.component';
 const appRoutes: Routes= [
     {path:'', component: HomeComponent}, //localhost:4200
     {path:'home', component: HomeComponent},
     {path:'products',component: ProductsComponent},
+    {path:'products/:id', component: ProductsComponent},
     {path:'users',component: UsersComponent},
     {path:'**',component: NotfoundComponent}
 ];
@@ -24,7 +26,8 @@ const appRoutes: Routes= [
     ProductsComponent,
     UsersComponent,
     CategoriesComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
