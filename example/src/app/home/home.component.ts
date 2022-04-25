@@ -15,6 +15,6 @@ export class HomeComponent implements OnInit {
 
   loadProducts() {
     //
-    this.router.navigate(['products']);
+    this.router.navigate(['/products']);
   }
 }
