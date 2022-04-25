@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { products } from 'products';
+
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
@@ -17,7 +18,7 @@ export class ProductComponent implements OnInit {
     // this.selectedProduct = products.find(i=>i.id === id);
 
     this.route.paramMap.subscribe(params=> {
-      let id = +params.get('id');
+      let id = Number(params.get('id'));
       this.selectedProduct = products.find(i=>i.id===id);
     })
   }

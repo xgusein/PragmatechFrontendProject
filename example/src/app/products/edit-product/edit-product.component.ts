@@ -12,8 +12,8 @@ export class EditProductComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params=> {
-      let id = +params.get('id');
-      this.selectedProduct= products.find(i=>i.id===id)
+      let id =Number(params.get('id'));
+      this.selectedProduct = products.find(i=>i.id===id)
     })
   }
 
