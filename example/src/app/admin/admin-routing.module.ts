@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AdminCategoriesComponent } from './admin-categories/admin-categories.component';
-import { AdminProductsComponent } from './admin-products/admin-products.component';
 import { AdminComponent } from './admin/admin.component';
+import { AuthGuard } from '../auth-guard.service';
+import { AdminProductsComponent } from './admin-products/admin-products.component';
+import { AdminCategoriesComponent } from './admin-categories/admin-categories.component';
+
+
 
 const routes: Routes = [
   {
     path: 'admin',
+    canActivate: [AuthGuard],
     component: AdminComponent,
     children: [{
       path:'',
