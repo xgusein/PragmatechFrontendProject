@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\obj\Debug\net6.0\number_gamee.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\obj\Debug\net6.0\number_gamee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\obj\Debug\net6.0\number_gamee.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\obj\Debug\net6.0\number_gamee.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\obj\Debug\net6.0\number_gamee.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\bin\Debug\net6.0\number_gamee.exe
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\bin\Debug\net6.0\number_gamee.deps.json
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\bin\Debug\net6.0\number_gamee.runtimeconfig.json
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\bin\Debug\net6.0\number_gamee.dll
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\bin\Debug\net6.0\number_gamee.pdb
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\obj\Debug\net6.0\number_gamee.dll
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\obj\Debug\net6.0\refint\number_gamee.dll
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\obj\Debug\net6.0\number_gamee.pdb
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\obj\Debug\net6.0\number_gamee.genruntimeconfig.cache
+C:\Users\Asus\Desktop\Pragma\works\number_gamee\obj\Debug\net6.0\ref\number_gamee.dll
