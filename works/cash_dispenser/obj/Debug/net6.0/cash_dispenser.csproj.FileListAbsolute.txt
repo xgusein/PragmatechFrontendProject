@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\obj\Debug\net6.0\cash_dispenser.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\obj\Debug\net6.0\cash_dispenser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\obj\Debug\net6.0\cash_dispenser.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\obj\Debug\net6.0\cash_dispenser.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\obj\Debug\net6.0\cash_dispenser.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\bin\Debug\net6.0\cash_dispenser.exe
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\bin\Debug\net6.0\cash_dispenser.deps.json
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\bin\Debug\net6.0\cash_dispenser.runtimeconfig.json
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\bin\Debug\net6.0\cash_dispenser.dll
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\bin\Debug\net6.0\cash_dispenser.pdb
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\obj\Debug\net6.0\cash_dispenser.dll
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\obj\Debug\net6.0\refint\cash_dispenser.dll
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\obj\Debug\net6.0\cash_dispenser.pdb
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\obj\Debug\net6.0\cash_dispenser.genruntimeconfig.cache
+C:\Users\Asus\Desktop\Pragma\works\cash_dispenser\obj\Debug\net6.0\ref\cash_dispenser.dll
