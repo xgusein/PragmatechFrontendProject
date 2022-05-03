@@ -41,8 +41,18 @@ namespace ConsoleApp
 
             System.Console.WriteLine("****************************");
 
-            student[] students = new student[3];
-            
+            student[] students = new student[2];
+            students[0] =std1;
+            students[1] =std2;
+
+            for (int i = 0; i < students.Length; i++)
+            {   
+
+                System.Console.WriteLine($"no: {students[i].studentno} ad: {students[i].name} branch: {students[i].branch}");
+                
+            }
+
+
 
         }
     }
