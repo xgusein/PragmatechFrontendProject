@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\obj\Debug\net6.0\Object-base_programming.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\obj\Debug\net6.0\Object-base_programming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\obj\Debug\net6.0\Object-base_programming.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\obj\Debug\net6.0\Object-base_programming.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\obj\Debug\net6.0\Object-base_programming.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\bin\Debug\net6.0\Object-base_programming.exe
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\bin\Debug\net6.0\Object-base_programming.deps.json
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\bin\Debug\net6.0\Object-base_programming.runtimeconfig.json
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\bin\Debug\net6.0\Object-base_programming.dll
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\bin\Debug\net6.0\Object-base_programming.pdb
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\obj\Debug\net6.0\Object-base_programming.dll
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\obj\Debug\net6.0\refint\Object-base_programming.dll
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\obj\Debug\net6.0\Object-base_programming.pdb
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\obj\Debug\net6.0\Object-base_programming.genruntimeconfig.cache
+C:\Users\Asus\Desktop\Pragma\works\c#\Object-base_programming\obj\Debug\net6.0\ref\Object-base_programming.dll
