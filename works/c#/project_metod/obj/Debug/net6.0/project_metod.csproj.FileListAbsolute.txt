@@ -1,0 +1,5 @@
+C:\Users\Asus\Desktop\Pragma\works\c#\project_metod\obj\Debug\net6.0\project_metod.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Pragma\works\c#\project_metod\obj\Debug\net6.0\project_metod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Pragma\works\c#\project_metod\obj\Debug\net6.0\project_metod.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Pragma\works\c#\project_metod\obj\Debug\net6.0\project_metod.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Pragma\works\c#\project_metod\obj\Debug\net6.0\project_metod.csproj.CoreCompileInputs.cache
