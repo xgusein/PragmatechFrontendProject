@@ -1,0 +1,5 @@
+C:\Users\Asus\Desktop\Pragma\works\c#\constructive_method-project\obj\Debug\net6.0\constructive_method-project.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Pragma\works\c#\constructive_method-project\obj\Debug\net6.0\constructive_method-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Pragma\works\c#\constructive_method-project\obj\Debug\net6.0\constructive_method-project.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Pragma\works\c#\constructive_method-project\obj\Debug\net6.0\constructive_method-project.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Pragma\works\c#\constructive_method-project\obj\Debug\net6.0\constructive_method-project.csproj.CoreCompileInputs.cache
