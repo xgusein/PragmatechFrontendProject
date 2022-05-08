@@ -21,7 +21,50 @@ namespace ConsoleApp
         }
     }
 
+    class Quiz
+    {
+        public Quiz(Question[] questions)
+        {
+            this.Questions = questions;
+            this.QuestionIndex = 0;
+        }
+        private Question[] Questions { get; set; }
+        public int QuestionIndex { get; set; }
+        public Question GetQuestion() 
+        {
+            return this.Questions[this.QuestionIndex];
+        }
 
+        public void DisplayQuestion()
+        {
+            var question = this.GetQuestion();
+            System.Console.WriteLine($"questıon{this.QuestionIndex+1}:{question.Text}");
+            foreach (var c in question.Choices)
+            {
+               System.Console.WriteLine($"-c{}");
+            }
+            System.Console.WriteLine("answerr:");
+            var answerr = Console.ReadLine();
+            this.Guess(answerr);
+        }
+
+        public void Guess(string answer)
+        {
+            var question = this.GetQuestion();
+            System.Console.WriteLine(question.checkAnswer(answer));//score
+            this.QuestionIndex++;
+            if (this.Questions.Length == this.QuestionIndex)
+            {
+                return
+            }
+            else
+            {
+                this.DisplayQuestion();
+            }
+            
+        }
+
+    }
 
     class Program {
 
@@ -32,20 +75,27 @@ namespace ConsoleApp
            var q3 = new Question("Which is the top earing programming language?", new string[]{"C#","Python","Java","C++"},"C#");
 
            var questions = new Question[]{q1,q2,q3};
+           var quiz = new Quiz(questions);
+           quiz.DisplayQuestion();
+            
 
-           foreach (var q in questions)
-           {
-               System.Console.WriteLine($"question {index}: {q.Text}");
-               index++;
 
-               foreach (var c in q.Choices)
-               {
-                   System.Console.WriteLine($"-c{}");
-               }
-               System.Console.WriteLine("Answer:");
-               var answerr = Console.ReadLine();
-               System.Console.WriteLine(q.checkAnswer(answerr));
-           }
+        //    System.Console.WriteLine(quiz.GetQuestion().Text);
+        //    quiz.QuestionIndex++;
+
+        //    foreach (var q in questions)
+        //    {
+        //        System.Console.WriteLine($"question {index}: {q.Text}");
+        //        index++;
+
+        //        foreach (var c in q.Choices)
+        //        {
+        //            System.Console.WriteLine($"-c{}");
+        //        }
+        //        System.Console.WriteLine("Answer:");
+        //        var answerr = Console.ReadLine();
+        //        System.Console.WriteLine(q.checkAnswer(answerr));
+        //    }
 
         }
     }

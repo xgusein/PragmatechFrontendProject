@@ -1,0 +1,5 @@
+C:\Users\Asus\Desktop\Pragma\works\c#\Quiz_application\obj\Debug\net6.0\Quiz_application.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Pragma\works\c#\Quiz_application\obj\Debug\net6.0\Quiz_application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Pragma\works\c#\Quiz_application\obj\Debug\net6.0\Quiz_application.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Pragma\works\c#\Quiz_application\obj\Debug\net6.0\Quiz_application.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Pragma\works\c#\Quiz_application\obj\Debug\net6.0\Quiz_application.csproj.CoreCompileInputs.cache
