@@ -27,10 +27,13 @@ namespace ConsoleApp
         {
             this.Questions = questions;
             this.QuestionIndex = 0;
+            this.Score = 0;
         }
         private Question[] Questions { get; set; }
-        public int QuestionIndex { get; set; }
-        public Question GetQuestion() 
+        private int QuestionIndex { get; set; }
+        private int Score { get; set; }
+
+        private Question GetQuestion() 
         {
             return this.Questions[this.QuestionIndex];
         }
@@ -38,6 +41,7 @@ namespace ConsoleApp
         public void DisplayQuestion()
         {
             var question = this.GetQuestion();
+            this.DisplayProgress();
             System.Console.WriteLine($"questıon{this.QuestionIndex+1}:{question.Text}");
             foreach (var c in question.Choices)
             {
@@ -48,22 +52,40 @@ namespace ConsoleApp
             this.Guess(answerr);
         }
 
-        public void Guess(string answer)
+        private void Guess(string answer)
         {
             var question = this.GetQuestion();
-            System.Console.WriteLine(question.checkAnswer(answer));//score
+            if (question.checkAnswer(answer))
+            {
+                this.Score++;
+            } 
             this.QuestionIndex++;
             if (this.Questions.Length == this.QuestionIndex)
             {
-                return
+                this.DisplayScore()
             }
             else
             {
+                this.DisplayProgress();
                 this.DisplayQuestion();
             }
             
         }
 
+        private void DisplayScore() 
+        {
+            System.Console.WriteLine($"Score: {this.Score}");
+        }
+        private void DisplayProgress()
+        {
+            int totalQuestion = this.Questions.Length;
+            int questionNumber = this.QuestionIndex+1;
+
+            if (totalQuestion>=question)
+            {
+                System.Console.WriteLine($"Question {questionNumber} of {questionNumber}");
+            }
+        }
     }
 
     class Program {
