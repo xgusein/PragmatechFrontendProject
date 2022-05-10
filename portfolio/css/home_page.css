@@ -402,6 +402,40 @@ body {
 .BOX:hover {
     margin-right: 50px;
 }
+/*Blog*/
+
+.Blog {
+    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.element {
+    display: inline-block;
+    background-color: #aaaaaa;
+    height: 350px;
+    width: 350px;
+    transform: skew(20deg);
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation: shake 2s infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: skewY(20deg);
+    }
+    100% {
+      transform: skewY(-20deg);
+    }
+  }
+  
+
 /*Footer*/
 footer {
     box-sizing: border-box;
