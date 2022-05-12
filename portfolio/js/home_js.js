@@ -27,11 +27,13 @@ class Particle {
     this.canvas = canvas;
     this.center = {
       x: $(window).width() / 2,
-      y: $(window).height() / 2 };
+      y: $(window).height() / 2
+    };
 
     this.point_of_attraction = {
       x: $(window).width() / 2,
-      y: $(window).height() / 2 };
+      y: $(window).height() / 2
+    };
 
 
 
@@ -74,7 +76,8 @@ class Particle {
 
     let p1 = {
       x: this.x,
-      y: this.y };
+      y: this.y
+    };
 
 
     let distance = this.calculateDistance(p1, this.point_of_attraction);
@@ -94,19 +97,20 @@ class Particle {
     this.render();
     this.progress++;
     return true;
-  }}
+  }
+}
 
 
 function popolate(num) {
   for (var i = 0; i < num; i++) {
     setTimeout(
-    function (x) {
-      return function () {
-        // Add particle
-        particles.push(new Particle(canvas));
-      };
-    }(i),
-    frequency * i);
+      function (x) {
+        return function () {
+          // Add particle
+          particles.push(new Particle(canvas));
+        };
+      }(i),
+      frequency * i);
   }
   return particles.length;
 }
@@ -115,7 +119,8 @@ function createSphera() {
   let radius = 180;
   let center = {
     x: $(window).width() / 2,
-    y: $(window).height() / 2 };
+    y: $(window).height() / 2
+  };
 
 }
 
@@ -130,10 +135,15 @@ function clear() {
  * Function to update particles in canvas
  */
 function update() {
-  particles = particles.filter(function (p) {return p.move();});
+  particles = particles.filter(function (p) {
+    return p.move();
+  });
   // Recreate particles
   if (time_to_recreate) {
-    if (particles.length < init_num) {popolate(1);console.log("Ricreo");}
+    if (particles.length < init_num) {
+      popolate(1);
+      console.log("Ricreo");
+    }
   }
   clear();
   requestAnimationFrame(update.bind(this));

@@ -65,11 +65,11 @@ body {
     color: #FF305B;
 }
 
-.nav_link:hover:before{
+.nav_link:hover:before {
     right: 0;
 }
 
-.nav_link:hover:after{
+.nav_link:hover:after {
     left: 0;
 }
 
@@ -80,14 +80,15 @@ body {
     position: absolute;
     z-index: 0;
     font-family: 'Raleway', sans-serif;
-     height: 100vh;
+    height: 100vh;
     background: #333 url(/projects/ProjectFrontEnd/layihe2/images/aa.jpg) no-repeat center center / cover;
     width: 100%;
-     color: #ccc;
-    overflow:hidden;
+    color: #ccc;
+    overflow: hidden;
     object-fit: cover;
     background-attachment: fixed;
 }
+
 .header img {
     object-fit: cover;
     width: 100%;
@@ -117,6 +118,7 @@ body {
     width: 25%;
     margin-left: 500px;
 }
+
 .information span {
     color: white;
 }
@@ -126,6 +128,7 @@ body {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
 /* About section*/
 .main {
     width: 100%;
@@ -134,7 +137,7 @@ body {
 }
 
 
-.main  h2 {
+.main h2 {
     text-align: center;
     font-weight: 700;
 }
@@ -156,22 +159,25 @@ body {
     color: rgb(97, 94, 94);
 }
 
-.table tr  {
+.table tr {
     border-bottom: #FF305B;
 }
 
 .table tr th i {
     padding-right: 4%;
 }
+
 .about_icone {
     width: 40%;
 }
+
 .about_icone_i {
     display: flex;
     justify-content: space-between;
     list-style: none;
     color: black;
 }
+
 .about_icone_i i {
     color: black;
     border-radius: 5%;
@@ -180,7 +186,7 @@ body {
 
 .about_icone_i i:hover {
     color: #FF305B;
-    transition: 0.5s; 
+    transition: 0.5s;
 }
 
 .about_contact_button {
@@ -196,7 +202,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 16px;
-    transition: 0.5s;   
+    transition: 0.5s;
 }
 
 .about_contact_button a:hover {
@@ -299,7 +305,7 @@ body {
     font-weight: 600;
 
 }
-    
+
 
 .portfolio_buttons ul li a {
     text-decoration: none;
@@ -329,6 +335,7 @@ body {
 .portfolio_item:hover img {
     filter: brightness(30%);
 }
+
 .padding {
     padding-bottom: 3%;
 }
@@ -343,6 +350,7 @@ body {
 .education h2 {
     margin-top: 30px;
 }
+
 .BIG {
     display: flex;
     padding: 5%;
@@ -395,20 +403,21 @@ body {
     height: 200px;
     width: 600px;
     margin-bottom: 5%;
-    box-shadow: -20px 10px 20px rgba(0,0,0,0.3);
+    box-shadow: -20px 10px 20px rgba(0, 0, 0, 0.3);
     transition: 0.5s;
 }
 
 .BOX:hover {
     margin-right: 50px;
 }
+
 /*Blog*/
 
 .Blog {
     height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .blog_heading {
@@ -424,12 +433,12 @@ body {
 }
 
 .element {
-    box-shadow: -20px 10px 20px rgba(0,0,0,0.3);
+    box-shadow: -20px 10px 20px rgba(0, 0, 0, 0.3);
     margin-top: 3rem;
     display: inline-block;
     background-color: rgb(236, 231, 231);
-    height: 350px;
-    width: 350px;
+    height: 380px;
+    width: 380px;
     transform: skew(20deg);
     font-size: 1px;
     padding: 10px;
@@ -438,7 +447,7 @@ body {
     margin-left: 5px;
     animation: shake 2s infinite;
     animation-direction: alternate;
-  }
+}
 
 .element-img {
     width: 100%;
@@ -451,7 +460,7 @@ body {
     object-fit: cover;
     object-position: center;
 }
-  
+
 .blog_text {
     padding: 30px;
     display: flex;
@@ -475,14 +484,14 @@ body {
     transition: all ease 0.3s;
 }
 
-.blog_text p{
+.blog_text p {
     color: rgb(177, 165, 165);
     font-size: 0.8rem;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 
 .blog_text a {
@@ -491,46 +500,200 @@ body {
     text-decoration: none;
 }
 
-.blog_text a:hover{
+.read_more{
+    margin-top: -8px;
+    color: black;
+    font-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.read_more i {
+    font-size: 2rem;
+    color: #272727;
+}
+
+.blog_text a:hover {
     color: #FF305B;
     transition: all ease 0.3s;
 }
 
-@media(max-width:1250px){
- 
-    .element{
+@media(max-width:1250px) {
+
+    .element {
         width: 300px;
     }
-} 
-@media(max-width:1100px){
-    .element{
-        width:70%;
+}
+
+@media(max-width:1100px) {
+    .element {
+        width: 70%;
     }
 }
- 
-@media(max-width:550px){
-   
-    .element{
+
+@media(max-width:550px) {
+
+    .element {
         margin: 20px 10px;
         width: 100%;
     }
-    #blog{
-        padding:20px;
+
+    #blog {
+        padding: 20px;
     }
 }
 
-  @keyframes shake {
+@keyframes shake {
     0% {
-      transform: skewY(10deg);
+        transform: skewY(10deg);
     }
+
     100% {
-      transform: skewY(-10deg);
+        transform: skewY(-10deg);
     }
-  }
-  
+}
+
+.Contact {
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #C9C9C9;
+}
+
+.Contact::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #B4BBC3;
+}
+
+.Contact .container {
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 5;
+}
+
+.Contact .container .contactinfo {
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100%-80px);
+    background-color: #C9C9C9;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgb(0, 0, 0,0.2);
+}
+
+.Contact .container .contactinfo h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.Contact .container .contactinfo .info {
+    position: relative;
+    margin: 20px 0;
+}
+
+.Contact .container .contactinfo .info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.Contact .container .contactinfo .info li span:nth-child(1) {
+    width: 30px;
+    min-width: 30px;
+}
+
+.Contact .container .contactinfo .info li span:nth-child(1) i {
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5s;
+}
+
+.Contact .container .contactinfo .info li span:nth-child(2) {
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.5s;
+}
+
+.Contact .container .contactinfo .info li span:nth-child(1) i,.Contact .container .contactinfo .info li span:nth-child(2) {
+    opacity: 1;
+}
+
+
+.Contact .container .contactinfo .sci {
+    position: relative;
+    display: flex;
+}
+
+.Contact .container .contactinfo .info li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.Contact .container .contactinfo .info li a{
+    text-decoration: none;
+}
+
+.Contact .container .contactinfo .info li a i {
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+.Contact .container .contactinfo .info li:hover a i {
+    opacity: 1;
+}
+
+.Contact .container .contactForm {
+    position: absolute;
+    padding: 70px 50px;
+    background: #fff;
+    margin-left: 150px;
+    width: calc(100% - 150px);
+    height: 100%;
+    box-shadow: 0 50px 50px rgb(0, 0, 0,0.5);
+}
+
+.Contact .container .contactForm h2 {
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.Contact .container .contactForm .formBox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.Contact .container .contactForm .formBox ,inputBox {
+    position: relative;
+    margin: 0 0 35px 0;
+}
 
 /*Footer*/
-footer {
+/* footer {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     position: relative;
@@ -580,7 +743,7 @@ form {
 .contact {
     padding: 40px;
     background: #fff;
-    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
 }
 
 .box {
@@ -588,14 +751,15 @@ form {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 8fr 4fr;
-    grid-template-areas: 
-    "form info"
-    "form map";
+    grid-template-areas:
+        "form info"
+        "form map";
     grid-gap: 20px;
-}
+} */
 
 /*form*/
-.formBox {
+
+/* .formBox {
     position: relative;
     width: 100%;
 }
@@ -649,21 +813,21 @@ form {
     font-size: 1.1em;
     max-width: 120px;
     font-weight: 500;
-    padding: 14px 15px; 
+    padding: 14px 15px;
 }
 
 .inputBox ::placeholder {
     color: #999;
-}
+} */
 
 /* info */
-
+/* 
 .info {
     background: none;
 }
 
 .info h3 {
-    color:black;
+    color: black;
     font-size: 2.5em;
 }
 
@@ -672,6 +836,7 @@ form {
     align-items: center;
     margin-top: 10px;
 }
+
 .info .infoBox div span {
     min-width: 40px;
     height: 40px;
@@ -714,4 +879,4 @@ form {
 
 .sci li a:hover {
     color: #fff;
-} 
+} */
