@@ -584,10 +584,10 @@ body {
 
 .Contact .container .contactinfo {
     position: absolute;
-    top: 40px;
+    top: 60px;
     width: 350px;
     height: calc(100%-80px);
-    background-color: #C9C9C9;
+    background-color: #ff305b;
     z-index: 1;
     padding: 40px;
     display: flex;
@@ -645,41 +645,55 @@ body {
     display: flex;
 }
 
-.Contact .container .contactinfo .info li {
+.Contact .container .contactinfo .sci li {
     list-style: none;
     margin-right: 15px;
 }
 
-.Contact .container .contactinfo .info li a{
+.Contact .container .contactinfo .sci li a{
     text-decoration: none;
 }
 
-.Contact .container .contactinfo .info li a i {
+.Contact .container .contactinfo .sci li a i {
     filter: invert(1);
+    font-size: 1.5rem;
+    color: #FF305B;
     opacity: 0.5;
 }
 
-.Contact .container .contactinfo .info li:hover a i {
+.Contact .container .contactinfo .sci li:hover a i {
     opacity: 1;
 }
 
-.Contact .container .contactForm {
+/* .Contact .container .formbox {
     position: absolute;
     padding: 70px 50px;
     background: #fff;
     margin-left: 150px;
+    padding-left: 150px;
+    width: calc(100% - 150px);
+    height: 100%;
+    box-shadow: 0 50px 50px rgb(0, 0, 0,0.5);
+} */
+
+.contactFrom{
+    position: absolute;
+    padding: 70px 50px;
+    background: #fff;
+    margin-left: 150px;
+    padding-left: 250px;
     width: calc(100% - 150px);
     height: 100%;
     box-shadow: 0 50px 50px rgb(0, 0, 0,0.5);
 }
 
-.Contact .container .contactForm h2 {
+.contactForm h2 {
     color: #0f3959;
     font-size: 24px;
     font-weight: 500;
 }
 
-.Contact .container .contactForm .formBox {
+.formBox {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -687,10 +701,12 @@ body {
     padding-top: 30px;
 }
 
-.Contact .container .contactForm .formBox ,inputBox {
+.formBox ,inputBox {
     position: relative;
     margin: 0 0 35px 0;
 }
+
+
 
 /*Footer*/
 /* footer {
