@@ -1,0 +1,232 @@
+#frist {
+    position: relative;
+    /* background-size: cover; */
+}
+#x-top-bar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.buttons ul {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.buttons li a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.buttons :hover {
+    transition: all .10s linear;
+    color: #ff305b;
+}
+#frist img {
+    width: 100%;
+    height: 650px;
+}
+.writ {
+    border: 1px solid none;
+    line-height: 34px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.main {
+    margin-top: 300px;
+    position: absolute;
+    top: 80px;
+    left: 670px;
+    color: white;
+
+}
+.con{
+    color: #ff305b;
+}
+.c-1{
+    margin-top: 80px;
+    width: 918px;
+    height: 630px;
+    border-bottom: 1px solid #e5e5e5;;
+}
+.time {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90%;
+    padding: 2%;
+    color: white;
+    background-color: #ff305b;
+    color: white;
+    cursor: pointer;
+    width: 12%;
+    
+}
+.about{
+    font-size: 18px;
+    width: 80%;
+    padding: 1%;
+    margin: 10px;
+}
+.t2{
+    color: black;
+    text-decoration: none;
+}
+
+.ad{
+    width: 150%;
+}
+.display{
+    display: flex;
+}
+.row img{
+    padding: 0%;
+    padding-top: 5% ;
+}
+.ete{
+    display: flex;
+    padding-top: 3%;
+    color: #878787;
+}
+.j-0{
+    margin-top: -3px;
+    padding-left: 2%;
+    margin-right: 2%; 
+}
+.j-2{
+    color: #878787;
+    font-size: 14px;
+    padding: 0px;
+}
+.bk {
+    text-decoration: none;
+    color: black;
+}
+.read{
+    margin-left: -2%;
+}
+.read :hover {
+    transition: all 10.s linear;
+    color: #ff305b;
+}
+
+
+
+#last {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+
+}
+.row{
+    margin-right: 0%;
+}
+.icons i {
+    color: black;
+    background-color: white;
+    padding: 0.5%;
+    margin: 0.4%;
+}
+.widget{
+    background-color: #878787;
+    opacity: .2;
+    width: 65%;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.search{
+    width: 80%;
+    height: 30px;
+}
+.ss5 {
+    text-align: center;
+    color: #878787;
+}
+
+.ssa {
+    text-decoration: none;
+    color: #ff305b;
+}
+
+.sea{
+    margin-top: 25px;
+}
+.sear{
+    margin-left: 39px;
+}
+.big{
+    border: 1px solid black;
+    background-color: #878787;
+    /* opacity: .2; */
+    width: 65%;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 120px;
+    /* background-color: #878787;
+    opacity: .2; */
+    color: black;
+}
+/* .news{
+    display: flex;
+    justify-content: center;  
+    text-align: center;  
+    margin-top: 4%;
+}
+.news p{
+    /* font-weight: 900;
+    background-color: white;
+    width: 80%;
+    height: 50px;
+     */
+.news{
+    text-align: center;
+    background-color: white;
+    font-weight: 900;
+    margin-top: 5%;
+    padding-top: 3%;
+        
+}
+.new{
+    height: 40px;
+}
+.inpu{
+    background-color: white;
+}
+.sm-inpu{
+    text-align: center;
+    width: 90%;
+    margin-top: 5px;
+}
+.sm-inpu p{
+    padding-top: 4%;
+    margin-left: 30px;
+}
+.enter{
+    width: 100%;
+}
+
+.sub{
+    background-color: #ff305b ;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 30%;
+    padding-left: 23%;
+    margin-left: 38px;
+}
+
