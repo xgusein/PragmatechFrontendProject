@@ -13,7 +13,7 @@ const Report = () => {
           body: {
             reportRequests: [
               {
-                viewId: "92320289", //enter your view ID here
+                viewId: "XXXX", //enter your view ID here
                 dateRanges: [
                   {
                     startDate: "10daysAgo",
